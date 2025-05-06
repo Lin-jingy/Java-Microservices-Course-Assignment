@@ -1,4 +1,4 @@
-package org.ljy.common.Util;
+package org.ljy.common.Util.JWT;
 
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.JWTCreator;
@@ -8,6 +8,7 @@ import com.auth0.jwt.interfaces.DecodedJWT;
 import lombok.extern.slf4j.Slf4j;
 import org.ljy.common.Model.Entity.User;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
 
 import java.util.Calendar;
 import java.util.HashMap;
@@ -15,10 +16,10 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 @Slf4j
+@Component
 public class JWTUtils {
 
-    @Value("${JWTUtils.sign}")
-    private static String SIGN;
+    private final static String SIGN = "abcdef";
 
 
     public static String getToken(User user) {

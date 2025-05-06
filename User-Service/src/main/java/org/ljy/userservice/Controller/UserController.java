@@ -8,6 +8,7 @@ import org.ljy.common.Model.DTO.UserLoginDTO;
 import org.ljy.common.Model.Entity.User;
 import org.ljy.common.Model.VO.UserVO;
 import org.ljy.common.Service.UserService;
+import org.ljy.common.Util.JWT.JWTUtils;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
@@ -37,7 +38,6 @@ public class UserController {
     @PostMapping("/login")
     public String login(@RequestBody UserLoginDTO loginDTO) {
         log.warn("loginDTO: {}", loginDTO.getUsername());
-//        return JWTUtils.getToken(userService.login(loginDTO));
-        // TODO
+        return JWTUtils.getToken(userService.login(loginDTO));
     }
 }
