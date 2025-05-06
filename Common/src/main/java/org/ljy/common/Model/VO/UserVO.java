@@ -1,4 +1,4 @@
-package org.ljy.common.Model.VO;
+package org.ljy.common.model.vo;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

@@ -1,14 +1,14 @@
-package org.ljy.userservice.Controller;
+package org.ljy.userservice.controller;
 
 import lombok.extern.slf4j.Slf4j;
 import org.apache.dubbo.config.annotation.DubboReference;
-import org.ljy.common.Model.DTO.UserChangePwdDTO;
-import org.ljy.common.Model.DTO.UserDTO;
-import org.ljy.common.Model.DTO.UserLoginDTO;
-import org.ljy.common.Model.Entity.User;
-import org.ljy.common.Model.VO.UserVO;
-import org.ljy.common.Service.UserService;
-import org.ljy.common.Util.JWT.JWTUtils;
+import org.ljy.common.model.dto.UserChangePwdDTO;
+import org.ljy.common.model.dto.UserDTO;
+import org.ljy.common.model.dto.UserLoginDTO;
+import org.ljy.common.model.entity.User;
+import org.ljy.common.model.vo.UserVO;
+import org.ljy.common.service.UserService;
+import org.ljy.common.util.jwt.JWTUtils;
 import org.springframework.web.bind.annotation.*;
 
 @RestController

@@ -1,14 +1,14 @@
-package org.ljy.userservice.Service.Impl;
+package org.ljy.userservice.service.impl;
 
 import lombok.RequiredArgsConstructor;
 import org.apache.dubbo.config.annotation.DubboService;
-import org.ljy.common.Model.DTO.UserChangePwdDTO;
-import org.ljy.common.Model.DTO.UserDTO;
-import org.ljy.common.Model.DTO.UserLoginDTO;
-import org.ljy.common.Model.Entity.User;
-import org.ljy.common.Service.UserService;
-import org.ljy.common.Model.VO.UserVO;
-import org.ljy.userservice.Repository.UserRepository;
+import org.ljy.common.model.dto.UserChangePwdDTO;
+import org.ljy.common.model.dto.UserDTO;
+import org.ljy.common.model.dto.UserLoginDTO;
+import org.ljy.common.model.entity.User;
+import org.ljy.common.model.vo.UserVO;
+import org.ljy.common.service.UserService;
+import org.ljy.userservice.repository.UserRepository;
 import org.springframework.beans.BeanUtils;
 import org.springframework.stereotype.Service;
 

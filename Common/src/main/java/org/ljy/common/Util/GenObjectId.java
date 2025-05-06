@@ -1,4 +1,4 @@
-package org.ljy.common.Util;
+package org.ljy.common.util;
 
 import java.util.UUID;
 

@@ -1,4 +1,4 @@
-package org.ljy.common.Util.JWT;
+package org.ljy.common.util.jwt;
 
 import com.auth0.jwt.exceptions.AlgorithmMismatchException;
 import com.auth0.jwt.exceptions.SignatureVerificationException;

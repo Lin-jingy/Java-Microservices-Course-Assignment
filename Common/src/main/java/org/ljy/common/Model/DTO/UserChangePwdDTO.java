@@ -1,4 +1,4 @@
-package org.ljy.common.Model.DTO;
+package org.ljy.common.model.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

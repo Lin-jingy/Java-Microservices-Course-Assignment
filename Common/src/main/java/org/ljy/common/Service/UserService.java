@@ -1,11 +1,10 @@
-package org.ljy.common.Service;
+package org.ljy.common.service;
 
-import org.ljy.common.Model.DTO.UserChangePwdDTO;
-import org.ljy.common.Model.DTO.UserDTO;
-import org.ljy.common.Model.DTO.UserLoginDTO;
-import org.ljy.common.Model.Entity.User;
-import org.ljy.common.Model.VO.UserVO;
-
+import org.ljy.common.model.dto.UserChangePwdDTO;
+import org.ljy.common.model.dto.UserDTO;
+import org.ljy.common.model.dto.UserLoginDTO;
+import org.ljy.common.model.entity.User;
+import org.ljy.common.model.vo.UserVO;
 
 public interface UserService {
     User createUser(UserDTO userDTO);

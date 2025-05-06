@@ -1,0 +1,685 @@
+2025-05-06T14:59:12.049+08:00  INFO 23388 --- [qa-service] [main] d.s.b.c.e.WelcomeLogoApplicationListener :  [DUBBO] 
+
+ :: Dubbo (v3.3.1) : https://github.com/apache/dubbo
+ :: Discuss group : dev@dubbo.apache.org
+, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T14:59:12.097+08:00  INFO 23388 --- [qa-service] [main] org.ljy.qaservice.QAServiceApplication   : Starting QAServiceApplication using Java 17 with PID 23388 (C:\Users\lin_jy\Desktop\programming\spring-cloud-JellyStudy\qa-service\target\classes started by lin_jy in C:\Users\lin_jy\Desktop\programming\spring-cloud-JellyStudy\qa-service)
+2025-05-06T14:59:12.099+08:00  INFO 23388 --- [qa-service] [main] org.ljy.qaservice.QAServiceApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-05-06T14:59:12.480+08:00  INFO 23388 --- [qa-service] [main] o.apache.dubbo.rpc.model.FrameworkModel  :  [DUBBO] Dubbo Framework[1] is created, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T14:59:12.489+08:00  INFO 23388 --- [qa-service] [main] o.a.d.c.r.GlobalResourcesRepository      :  [DUBBO] Creating global shared handler ..., dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T14:59:12.542+08:00  INFO 23388 --- [qa-service] [main] o.a.dubbo.rpc.model.ApplicationModel     :  [DUBBO] Dubbo Application[1.0](unknown) is created, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T14:59:12.543+08:00  INFO 23388 --- [qa-service] [main] org.apache.dubbo.rpc.model.ScopeModel    :  [DUBBO] Dubbo Module[1.0.0] is created, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T14:59:12.570+08:00  INFO 23388 --- [qa-service] [main] o.a.d.c.context.AbstractConfigManager    :  [DUBBO] Config settings: {dubbo.config.mode=STRICT, dubbo.config.ignore-duplicated-interface=false}, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T14:59:12.571+08:00  INFO 23388 --- [qa-service] [main] o.a.d.c.context.AbstractConfigManager    :  [DUBBO] Config settings: {dubbo.config.mode=STRICT, dubbo.config.ignore-duplicated-interface=false}, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T14:59:12.574+08:00  INFO 23388 --- [qa-service] [main] o.a.d.c.utils.SerializeSecurityManager   :  [DUBBO] Serialize check serializable: true, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T14:59:12.574+08:00  INFO 23388 --- [qa-service] [main] o.a.d.c.u.SerializeSecurityConfigurator  :  [DUBBO] Read serialize allow list from jar:file:/D:/jdk/apache-maven-3.9.9/repository/org/apache/dubbo/dubbo/3.3.1/dubbo-3.3.1.jar!/security/serialize.allowlist, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T14:59:12.588+08:00  INFO 23388 --- [qa-service] [main] o.a.d.c.u.SerializeSecurityConfigurator  :  [DUBBO] Read serialize blocked list from jar:file:/D:/jdk/apache-maven-3.9.9/repository/org/apache/dubbo/dubbo/3.3.1/dubbo-3.3.1.jar!/security/serialize.blockedlist, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T14:59:12.672+08:00  INFO 23388 --- [qa-service] [main] o.a.dubbo.rpc.model.ApplicationModel     :  [DUBBO] Dubbo Application[1.1](unknown) is created, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T14:59:12.672+08:00  INFO 23388 --- [qa-service] [main] org.apache.dubbo.rpc.model.ScopeModel    :  [DUBBO] Dubbo Module[1.1.0] is created, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T14:59:12.674+08:00  INFO 23388 --- [qa-service] [main] o.a.d.c.context.AbstractConfigManager    :  [DUBBO] Config settings: {dubbo.config.mode=STRICT, dubbo.config.ignore-duplicated-interface=false}, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T14:59:12.674+08:00  INFO 23388 --- [qa-service] [main] o.a.d.c.context.AbstractConfigManager    :  [DUBBO] Config settings: {dubbo.config.mode=STRICT, dubbo.config.ignore-duplicated-interface=false}, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T14:59:12.676+08:00  INFO 23388 --- [qa-service] [main] o.a.d.c.u.SerializeSecurityConfigurator  :  [DUBBO] Read serialize allow list from jar:file:/D:/jdk/apache-maven-3.9.9/repository/org/apache/dubbo/dubbo/3.3.1/dubbo-3.3.1.jar!/security/serialize.allowlist, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T14:59:12.677+08:00  INFO 23388 --- [qa-service] [main] o.a.d.c.u.SerializeSecurityConfigurator  :  [DUBBO] Read serialize blocked list from jar:file:/D:/jdk/apache-maven-3.9.9/repository/org/apache/dubbo/dubbo/3.3.1/dubbo-3.3.1.jar!/security/serialize.blockedlist, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T14:59:12.686+08:00  INFO 23388 --- [qa-service] [main] o.a.d.c.s.c.DubboSpringInitializer       :  [DUBBO] Use default application: Dubbo Application[1.1](unknown), dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T14:59:12.686+08:00  INFO 23388 --- [qa-service] [main] org.apache.dubbo.rpc.model.ScopeModel    :  [DUBBO] Dubbo Module[1.1.1] is created, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T14:59:12.688+08:00  INFO 23388 --- [qa-service] [main] o.a.d.c.context.AbstractConfigManager    :  [DUBBO] Config settings: {dubbo.config.mode=STRICT, dubbo.config.ignore-duplicated-interface=false}, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T14:59:12.689+08:00  INFO 23388 --- [qa-service] [main] o.a.d.c.u.SerializeSecurityConfigurator  :  [DUBBO] Read serialize allow list from jar:file:/D:/jdk/apache-maven-3.9.9/repository/org/apache/dubbo/dubbo/3.3.1/dubbo-3.3.1.jar!/security/serialize.allowlist, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T14:59:12.689+08:00  INFO 23388 --- [qa-service] [main] o.a.d.c.u.SerializeSecurityConfigurator  :  [DUBBO] Read serialize blocked list from jar:file:/D:/jdk/apache-maven-3.9.9/repository/org/apache/dubbo/dubbo/3.3.1/dubbo-3.3.1.jar!/security/serialize.blockedlist, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T14:59:12.691+08:00  INFO 23388 --- [qa-service] [main] o.a.d.c.s.c.DubboSpringInitializer       :  [DUBBO] Use default module model of target application: Dubbo Module[1.1.1], dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T14:59:12.691+08:00  INFO 23388 --- [qa-service] [main] o.a.d.c.s.c.DubboSpringInitializer       :  [DUBBO] Bind Dubbo Module[1.1.1] to spring container: org.springframework.beans.factory.support.DefaultListableBeanFactory@1698fc68, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T14:59:12.880+08:00  INFO 23388 --- [qa-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2025-05-06T14:59:12.890+08:00  INFO 23388 --- [qa-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 0 MongoDB repository interfaces.
+2025-05-06T14:59:12.922+08:00  INFO 23388 --- [qa-service] [main] c.s.b.f.a.ServiceAnnotationPostProcessor :  [DUBBO] BeanNameGenerator bean can't be found in BeanFactory with name [org.springframework.context.annotation.internalConfigurationBeanNameGenerator], dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T14:59:12.922+08:00  INFO 23388 --- [qa-service] [main] c.s.b.f.a.ServiceAnnotationPostProcessor :  [DUBBO] BeanNameGenerator will be a instance of org.springframework.context.annotation.AnnotationBeanNameGenerator , it maybe a potential problem on bean name generation., dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T14:59:12.925+08:00  WARN 23388 --- [qa-service] [main] c.s.b.f.a.ServiceAnnotationPostProcessor :  [DUBBO] No class annotated by Dubbo @DubboService or @Service was found under package [org.ljy.qaservice], ignore re-scanned classes: 0, dubbo version: 3.3.1, current host: 10.67.159.147, error code: 5-28. This may be caused by No annotations were found on the class, go to https://dubbo.apache.org/faq/5/28 to find instructions. 
+2025-05-06T14:59:13.188+08:00  INFO 23388 --- [qa-service] [main] f.a.ReferenceAnnotationBeanPostProcessor :  [DUBBO] class org.apache.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor was destroying!, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T14:59:13.384+08:00  INFO 23388 --- [qa-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9001 (http)
+2025-05-06T14:59:13.392+08:00  INFO 23388 --- [qa-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-06T14:59:13.392+08:00  INFO 23388 --- [qa-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2025-05-06T14:59:13.447+08:00  INFO 23388 --- [qa-service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-06T14:59:13.447+08:00  INFO 23388 --- [qa-service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1317 ms
+2025-05-06T14:59:13.531+08:00  INFO 23388 --- [qa-service] [main] o.a.d.c.s.c.DubboConfigBeanInitializer   :  [DUBBO] loading dubbo config beans ..., dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T14:59:13.563+08:00  INFO 23388 --- [qa-service] [main] o.a.d.c.s.c.DubboConfigBeanInitializer   :  [DUBBO] dubbo config beans are loaded., dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T14:59:13.597+08:00  INFO 23388 --- [qa-service] [main] c.a.nacos.client.logging.NacosLogging    : Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback12.LogbackNacosLoggingAdapterBuilder
+2025-05-06T14:59:13.602+08:00  INFO 23388 --- [qa-service] [main] c.a.nacos.client.logging.NacosLogging    : Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapterBuilder
+2025-05-06T14:59:13.602+08:00  INFO 23388 --- [qa-service] [main] c.a.nacos.client.logging.NacosLogging    : Nacos Logging Adapter: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapter match ch.qos.logback.classic.Logger success.
+2025-05-06T14:59:13.606+08:00  INFO 23388 --- [qa-service] [main] c.a.nacos.client.logging.NacosLogging    : Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.log4j2.Log4j2NacosLoggingAdapterBuilder
+2025-05-06T14:59:13.692+08:00  INFO 23388 --- [qa-service] [main] c.a.n.p.a.s.c.ClientAuthPluginManager    : [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-05-06T14:59:13.692+08:00  INFO 23388 --- [qa-service] [main] c.a.n.p.a.s.c.ClientAuthPluginManager    : [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-05-06T14:59:14.324+08:00  INFO 23388 --- [qa-service] [main] c.a.n.c.a.AbstractAbilityControlManager  : Ready to get current node abilities...
+2025-05-06T14:59:14.326+08:00  INFO 23388 --- [qa-service] [main] c.a.n.c.a.AbstractAbilityControlManager  : Ready to initialize current node abilities, support modes: [SDK_CLIENT]
+2025-05-06T14:59:14.326+08:00  INFO 23388 --- [qa-service] [main] c.a.n.c.a.AbstractAbilityControlManager  : Initialize current abilities finish...
+2025-05-06T14:59:14.326+08:00  INFO 23388 --- [qa-service] [main] c.a.n.c.a.d.NacosAbilityManagerHolder    : [AbilityControlManager] Successfully initialize AbilityControlManager
+2025-05-06T14:59:14.721+08:00  INFO 23388 --- [qa-service] [main] o.a.d.common.config.ConfigurationUtils   :  [DUBBO] Config center was specified, but no config item found., dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T14:59:14.721+08:00  INFO 23388 --- [qa-service] [main] o.a.d.common.config.ConfigurationUtils   :  [DUBBO] Config center was specified, but no config item found., dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T14:59:14.747+08:00  INFO 23388 --- [qa-service] [main] o.a.dubbo.config.context.ConfigManager   :  [DUBBO] The current configurations or effective configurations are as follows:, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T14:59:14.749+08:00  INFO 23388 --- [qa-service] [main] o.a.dubbo.config.context.ConfigManager   :  [DUBBO] <dubbo:application enableFileCache="true" logger="slf4j" checkSerializable="false" executorManagementMode="isolation" parameters="{}" name="qa-service" qosEnable="false" protocol="dubbo" />, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T14:59:14.749+08:00  INFO 23388 --- [qa-service] [main] o.a.dubbo.config.context.ConfigManager   :  [DUBBO] <dubbo:protocol preferSerialization="hessian2,fastjson2" port="20880" name="tri" />, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T14:59:14.749+08:00  INFO 23388 --- [qa-service] [main] o.a.dubbo.config.context.ConfigManager   :  [DUBBO] <dubbo:registry port="8848" registerMode="instance" address="nacos://120.26.160.25:8848" protocol="nacos" />, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T14:59:14.750+08:00  INFO 23388 --- [qa-service] [main] o.a.dubbo.config.context.ConfigManager   :  [DUBBO] <dubbo:ssl />, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T14:59:14.760+08:00  INFO 23388 --- [qa-service] [main] o.a.d.c.deploy.DefaultModuleDeployer     :  [DUBBO] Dubbo Module[1.1.0] has been initialized!, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T14:59:14.764+08:00  INFO 23388 --- [qa-service] [main] o.a.d.c.deploy.DefaultModuleDeployer     :  [DUBBO] Dubbo Module[1.1.1] has been initialized!, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T14:59:14.830+08:00  INFO 23388 --- [qa-service] [main] o.a.d.c.d.DefaultApplicationDeployer     :  [DUBBO] No value is configured in the registry, the MetadataReportFactory extension[name : nacos] supports as the metadata center, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T14:59:14.830+08:00  INFO 23388 --- [qa-service] [main] o.a.d.c.d.DefaultApplicationDeployer     :  [DUBBO] The registry[<dubbo:registry port="8848" registerMode="instance" address="nacos://120.26.160.25:8848" protocol="nacos" />] will be used as the metadata center, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T14:59:14.833+08:00  INFO 23388 --- [qa-service] [main] o.a.d.c.d.DefaultApplicationDeployer     :  [DUBBO] use registry as metadata-center: <dubbo:metadata-report address="nacos://120.26.160.25:8848" protocol="nacos" port="8848" parameters="{client=null}" />, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T14:59:14.845+08:00  INFO 23388 --- [qa-service] [main] c.a.n.p.a.s.c.ClientAuthPluginManager    : [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-05-06T14:59:14.845+08:00  INFO 23388 --- [qa-service] [main] c.a.n.p.a.s.c.ClientAuthPluginManager    : [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-05-06T14:59:14.949+08:00  INFO 23388 --- [qa-service] [main] o.a.d.c.d.DefaultApplicationDeployer     :  [DUBBO] Dubbo Application[1.1](qa-service) has been initialized!, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T14:59:15.102+08:00  WARN 23388 --- [qa-service] [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-05-06T14:59:15.217+08:00  INFO 23388 --- [qa-service] [main] org.mongodb.driver.client                : MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.11.1"}, "os": {"type": "Windows", "name": "Windows 10", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Oracle Corporation/17+35-2724"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=MongoCredential{mechanism=null, userName='root', source='admin', password=<hidden>, mechanismProperties=<hidden>}, transportSettings=null, streamFactoryFactory=null, commandListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsCommandListener@270be080], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@752ffce3, com.mongodb.Jep395RecordCodecProvider@78f35e39, com.mongodb.KotlinCodecProvider@11896124]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[120.26.160.25:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsConnectionPoolListener@69fe8c75], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null}
+2025-05-06T14:59:15.254+08:00  INFO 23388 --- [qa-service] [cluster-ClusterId{value='6819b343875c8156f69fb04f', description='null'}-120.26.160.25:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=120.26.160.25:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=21, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=33083300}
+2025-05-06T14:59:15.368+08:00  INFO 23388 --- [qa-service] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2025-05-06T14:59:15.403+08:00  INFO 23388 --- [qa-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9001 (http) with context path ''
+2025-05-06T14:59:15.411+08:00  INFO 23388 --- [qa-service] [main] o.a.d.c.deploy.DefaultModuleDeployer     :  [DUBBO] Dubbo Module[1.1.1] is starting., dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T14:59:15.412+08:00  INFO 23388 --- [qa-service] [main] o.a.d.c.d.DefaultApplicationDeployer     :  [DUBBO] Dubbo Application[1.1](qa-service) is starting., dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T14:59:15.412+08:00  INFO 23388 --- [qa-service] [main] o.a.d.c.deploy.DefaultModuleDeployer     :  [DUBBO] Dubbo Module[1.1.0] is starting., dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T14:59:15.413+08:00  INFO 23388 --- [qa-service] [main] o.a.d.c.deploy.DefaultModuleDeployer     :  [DUBBO] Dubbo Module[1.1.0] has started., dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T14:59:15.413+08:00  INFO 23388 --- [qa-service] [main] o.a.d.c.deploy.DefaultModuleDeployer     :  [DUBBO] Dubbo Module[1.1.0] has completed., dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T14:59:15.413+08:00  INFO 23388 --- [qa-service] [main] o.a.d.c.deploy.DefaultModuleDeployer     :  [DUBBO] Dubbo Module[1.1.1] has started., dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T14:59:15.413+08:00  INFO 23388 --- [qa-service] [main] o.a.d.c.d.DefaultMetricsServiceExporter  :  [DUBBO] The MetricsConfig not exist, will not export metrics service., dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T14:59:15.415+08:00  INFO 23388 --- [qa-service] [main] o.a.d.c.d.DefaultApplicationDeployer     :  [DUBBO] Dubbo Application[1.1](qa-service) is ready., dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T14:59:15.415+08:00  INFO 23388 --- [qa-service] [main] o.a.d.c.deploy.DefaultModuleDeployer     :  [DUBBO] Dubbo Module[1.1.1] has completed., dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T14:59:15.415+08:00  INFO 23388 --- [qa-service] [main] o.a.d.c.d.DefaultApplicationDeployer     :  [DUBBO] Dubbo Application[1.1](qa-service) has completed., dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T14:59:15.417+08:00  INFO 23388 --- [qa-service] [main] org.ljy.qaservice.QAServiceApplication   : Started QAServiceApplication in 3.865 seconds (process running for 4.144)
+2025-05-06T14:59:42.901+08:00  INFO 23388 --- [qa-service] [DubboShutdownHook] o.apache.dubbo.config.DubboShutdownHook  :  [DUBBO] Run shutdown hook now., dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T14:59:42.901+08:00  WARN 23388 --- [qa-service] [Thread-7] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+2025-05-06T14:59:42.901+08:00  WARN 23388 --- [qa-service] [Thread-9] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+2025-05-06T14:59:42.901+08:00  WARN 23388 --- [qa-service] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Start destroying ThreadPool
+2025-05-06T14:59:42.901+08:00  WARN 23388 --- [qa-service] [Thread-9] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+2025-05-06T14:59:42.902+08:00  WARN 23388 --- [qa-service] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Destruction of the end
+2025-05-06T14:59:42.902+08:00  WARN 23388 --- [qa-service] [Thread-7] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+2025-05-06T14:59:42.902+08:00  INFO 23388 --- [qa-service] [DubboShutdownHook] o.apache.dubbo.config.DubboShutdownHook  :  [DUBBO] Waiting for modules(Dubbo Application[1.1](qa-service)) managed by Spring to be shutdown., dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T14:59:42.902+08:00  INFO 23388 --- [qa-service] [SpringApplicationShutdownHook] o.a.d.c.deploy.DefaultModuleDeployer     :  [DUBBO] Dubbo Module[1.1.1] is stopping., dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T14:59:42.903+08:00  INFO 23388 --- [qa-service] [SpringApplicationShutdownHook] o.a.d.c.d.DefaultApplicationDeployer     :  [DUBBO] Dubbo Application[1.1](qa-service) has completed., dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T14:59:42.903+08:00  INFO 23388 --- [qa-service] [SpringApplicationShutdownHook] o.a.d.c.deploy.DefaultModuleDeployer     :  [DUBBO] Dubbo Module[1.1.1] has stopped., dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T14:59:42.903+08:00  INFO 23388 --- [qa-service] [SpringApplicationShutdownHook] o.a.d.c.d.DefaultApplicationDeployer     :  [DUBBO] Dubbo Application[1.1](qa-service) has completed., dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T14:59:42.903+08:00  INFO 23388 --- [qa-service] [SpringApplicationShutdownHook] o.apache.dubbo.rpc.model.FrameworkModel  :  [DUBBO] Reset global default application from Dubbo Application[1.1](qa-service) to null, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T14:59:42.903+08:00  INFO 23388 --- [qa-service] [SpringApplicationShutdownHook] o.a.d.c.d.DefaultApplicationDeployer     :  [DUBBO] Dubbo Application[1.1](qa-service) is stopping., dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T14:59:42.904+08:00  INFO 23388 --- [qa-service] [SpringApplicationShutdownHook] o.a.d.c.deploy.DefaultModuleDeployer     :  [DUBBO] Dubbo Module[1.1.0] is stopping., dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T14:59:42.904+08:00  INFO 23388 --- [qa-service] [SpringApplicationShutdownHook] o.a.d.c.deploy.DefaultModuleDeployer     :  [DUBBO] Dubbo Module[1.1.0] has stopped., dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T14:59:42.904+08:00  INFO 23388 --- [qa-service] [SpringApplicationShutdownHook] o.a.d.registry.support.RegistryManager   :  [DUBBO] Close all registries [], dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T14:59:42.906+08:00  INFO 23388 --- [qa-service] [SpringApplicationShutdownHook] o.a.d.c.t.m.DefaultExecutorRepository    :  [DUBBO] destroying application executor repository .., dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T14:59:42.906+08:00  INFO 23388 --- [qa-service] [SpringApplicationShutdownHook] o.a.d.c.d.DefaultApplicationDeployer     :  [DUBBO] Dubbo Application[1.1](qa-service) has stopped., dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T14:59:42.909+08:00  INFO 23388 --- [qa-service] [SpringApplicationShutdownHook] o.apache.dubbo.rpc.model.FrameworkModel  :  [DUBBO] Destroying default framework model: Dubbo Framework[1], dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T14:59:42.909+08:00  INFO 23388 --- [qa-service] [SpringApplicationShutdownHook] o.apache.dubbo.rpc.model.FrameworkModel  :  [DUBBO] Dubbo Framework[1] is destroying ..., dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T14:59:42.909+08:00  INFO 23388 --- [qa-service] [SpringApplicationShutdownHook] o.a.d.c.d.DefaultApplicationDeployer     :  [DUBBO] Dubbo Application[1.0](DUBBO_INTERNAL_APPLICATION) is stopping., dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T14:59:42.910+08:00  INFO 23388 --- [qa-service] [SpringApplicationShutdownHook] o.a.d.c.deploy.DefaultModuleDeployer     :  [DUBBO] Dubbo Module[1.0.0] is stopping., dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T14:59:42.910+08:00  INFO 23388 --- [qa-service] [SpringApplicationShutdownHook] o.a.d.c.deploy.DefaultModuleDeployer     :  [DUBBO] Dubbo Module[1.0.0] has stopped., dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T14:59:42.910+08:00  INFO 23388 --- [qa-service] [SpringApplicationShutdownHook] o.a.d.registry.support.RegistryManager   :  [DUBBO] Close all registries [], dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T14:59:42.910+08:00  INFO 23388 --- [qa-service] [SpringApplicationShutdownHook] o.a.d.c.t.m.DefaultExecutorRepository    :  [DUBBO] destroying application executor repository .., dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T14:59:42.910+08:00  INFO 23388 --- [qa-service] [SpringApplicationShutdownHook] o.a.d.c.d.DefaultApplicationDeployer     :  [DUBBO] Dubbo Application[1.0](DUBBO_INTERNAL_APPLICATION) has stopped., dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T14:59:42.911+08:00  INFO 23388 --- [qa-service] [SpringApplicationShutdownHook] o.apache.dubbo.rpc.model.FrameworkModel  :  [DUBBO] Dubbo Framework[1] is destroyed, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T14:59:42.911+08:00  INFO 23388 --- [qa-service] [SpringApplicationShutdownHook] o.apache.dubbo.rpc.model.FrameworkModel  :  [DUBBO] Reset global default framework from Dubbo Framework[1] to null, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T14:59:42.911+08:00  INFO 23388 --- [qa-service] [SpringApplicationShutdownHook] o.a.d.c.r.GlobalResourcesRepository      :  [DUBBO] Destroying global resources ..., dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T14:59:42.911+08:00  INFO 23388 --- [qa-service] [SpringApplicationShutdownHook] o.a.d.c.r.GlobalResourcesRepository      :  [DUBBO] Dubbo is completely destroyed, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T14:59:42.911+08:00  INFO 23388 --- [qa-service] [SpringApplicationShutdownHook] o.a.d.c.t.m.FrameworkExecutorRepository  :  [DUBBO] destroying framework executor repository .., dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T14:59:42.912+08:00  INFO 23388 --- [qa-service] [SpringApplicationShutdownHook] o.a.d.c.s.c.DubboSpringInitializer       :  [DUBBO] Unbind Dubbo Module[1.1.1] from spring container: org.springframework.beans.factory.support.DefaultListableBeanFactory@1698fc68, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:25:48.925+08:00  INFO 23512 --- [qa-service] [main] d.s.b.c.e.WelcomeLogoApplicationListener :  [DUBBO] 
+
+ :: Dubbo (v3.3.1) : https://github.com/apache/dubbo
+ :: Discuss group : dev@dubbo.apache.org
+, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:25:48.978+08:00  INFO 23512 --- [qa-service] [main] org.ljy.qaservice.QAServiceApplication   : Starting QAServiceApplication using Java 17 with PID 23512 (C:\Users\lin_jy\Desktop\programming\spring-cloud-JellyStudy\qa-service\target\classes started by lin_jy in C:\Users\lin_jy\Desktop\programming\spring-cloud-JellyStudy\qa-service)
+2025-05-06T18:25:48.980+08:00  INFO 23512 --- [qa-service] [main] org.ljy.qaservice.QAServiceApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-05-06T18:25:49.528+08:00  INFO 23512 --- [qa-service] [main] o.apache.dubbo.rpc.model.FrameworkModel  :  [DUBBO] Dubbo Framework[1] is created, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:25:49.536+08:00  INFO 23512 --- [qa-service] [main] o.a.d.c.r.GlobalResourcesRepository      :  [DUBBO] Creating global shared handler ..., dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:25:49.587+08:00  INFO 23512 --- [qa-service] [main] o.a.dubbo.rpc.model.ApplicationModel     :  [DUBBO] Dubbo Application[1.0](unknown) is created, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:25:49.588+08:00  INFO 23512 --- [qa-service] [main] org.apache.dubbo.rpc.model.ScopeModel    :  [DUBBO] Dubbo Module[1.0.0] is created, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:25:49.607+08:00  INFO 23512 --- [qa-service] [main] o.a.d.c.context.AbstractConfigManager    :  [DUBBO] Config settings: {dubbo.config.mode=STRICT, dubbo.config.ignore-duplicated-interface=false}, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:25:49.609+08:00  INFO 23512 --- [qa-service] [main] o.a.d.c.context.AbstractConfigManager    :  [DUBBO] Config settings: {dubbo.config.mode=STRICT, dubbo.config.ignore-duplicated-interface=false}, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:25:49.612+08:00  INFO 23512 --- [qa-service] [main] o.a.d.c.utils.SerializeSecurityManager   :  [DUBBO] Serialize check serializable: true, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:25:49.613+08:00  INFO 23512 --- [qa-service] [main] o.a.d.c.u.SerializeSecurityConfigurator  :  [DUBBO] Read serialize allow list from jar:file:/D:/jdk/apache-maven-3.9.9/repository/org/apache/dubbo/dubbo/3.3.1/dubbo-3.3.1.jar!/security/serialize.allowlist, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:25:49.630+08:00  INFO 23512 --- [qa-service] [main] o.a.d.c.u.SerializeSecurityConfigurator  :  [DUBBO] Read serialize blocked list from jar:file:/D:/jdk/apache-maven-3.9.9/repository/org/apache/dubbo/dubbo/3.3.1/dubbo-3.3.1.jar!/security/serialize.blockedlist, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:25:49.740+08:00  INFO 23512 --- [qa-service] [main] o.a.dubbo.rpc.model.ApplicationModel     :  [DUBBO] Dubbo Application[1.1](unknown) is created, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:25:49.740+08:00  INFO 23512 --- [qa-service] [main] org.apache.dubbo.rpc.model.ScopeModel    :  [DUBBO] Dubbo Module[1.1.0] is created, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:25:49.744+08:00  INFO 23512 --- [qa-service] [main] o.a.d.c.context.AbstractConfigManager    :  [DUBBO] Config settings: {dubbo.config.mode=STRICT, dubbo.config.ignore-duplicated-interface=false}, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:25:49.744+08:00  INFO 23512 --- [qa-service] [main] o.a.d.c.context.AbstractConfigManager    :  [DUBBO] Config settings: {dubbo.config.mode=STRICT, dubbo.config.ignore-duplicated-interface=false}, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:25:49.746+08:00  INFO 23512 --- [qa-service] [main] o.a.d.c.u.SerializeSecurityConfigurator  :  [DUBBO] Read serialize allow list from jar:file:/D:/jdk/apache-maven-3.9.9/repository/org/apache/dubbo/dubbo/3.3.1/dubbo-3.3.1.jar!/security/serialize.allowlist, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:25:49.747+08:00  INFO 23512 --- [qa-service] [main] o.a.d.c.u.SerializeSecurityConfigurator  :  [DUBBO] Read serialize blocked list from jar:file:/D:/jdk/apache-maven-3.9.9/repository/org/apache/dubbo/dubbo/3.3.1/dubbo-3.3.1.jar!/security/serialize.blockedlist, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:25:49.755+08:00  INFO 23512 --- [qa-service] [main] o.a.d.c.s.c.DubboSpringInitializer       :  [DUBBO] Use default application: Dubbo Application[1.1](unknown), dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:25:49.755+08:00  INFO 23512 --- [qa-service] [main] org.apache.dubbo.rpc.model.ScopeModel    :  [DUBBO] Dubbo Module[1.1.1] is created, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:25:49.757+08:00  INFO 23512 --- [qa-service] [main] o.a.d.c.context.AbstractConfigManager    :  [DUBBO] Config settings: {dubbo.config.mode=STRICT, dubbo.config.ignore-duplicated-interface=false}, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:25:49.758+08:00  INFO 23512 --- [qa-service] [main] o.a.d.c.u.SerializeSecurityConfigurator  :  [DUBBO] Read serialize allow list from jar:file:/D:/jdk/apache-maven-3.9.9/repository/org/apache/dubbo/dubbo/3.3.1/dubbo-3.3.1.jar!/security/serialize.allowlist, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:25:49.758+08:00  INFO 23512 --- [qa-service] [main] o.a.d.c.u.SerializeSecurityConfigurator  :  [DUBBO] Read serialize blocked list from jar:file:/D:/jdk/apache-maven-3.9.9/repository/org/apache/dubbo/dubbo/3.3.1/dubbo-3.3.1.jar!/security/serialize.blockedlist, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:25:49.762+08:00  INFO 23512 --- [qa-service] [main] o.a.d.c.s.c.DubboSpringInitializer       :  [DUBBO] Use default module model of target application: Dubbo Module[1.1.1], dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:25:49.762+08:00  INFO 23512 --- [qa-service] [main] o.a.d.c.s.c.DubboSpringInitializer       :  [DUBBO] Bind Dubbo Module[1.1.1] to spring container: org.springframework.beans.factory.support.DefaultListableBeanFactory@307765b4, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:25:50.026+08:00  INFO 23512 --- [qa-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2025-05-06T18:25:50.073+08:00  INFO 23512 --- [qa-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 42 ms. Found 2 MongoDB repository interfaces.
+2025-05-06T18:25:50.117+08:00  INFO 23512 --- [qa-service] [main] c.s.b.f.a.ServiceAnnotationPostProcessor :  [DUBBO] BeanNameGenerator bean can't be found in BeanFactory with name [org.springframework.context.annotation.internalConfigurationBeanNameGenerator], dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:25:50.117+08:00  INFO 23512 --- [qa-service] [main] c.s.b.f.a.ServiceAnnotationPostProcessor :  [DUBBO] BeanNameGenerator will be a instance of org.springframework.context.annotation.AnnotationBeanNameGenerator , it maybe a potential problem on bean name generation., dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:25:50.120+08:00  INFO 23512 --- [qa-service] [main] c.s.b.f.a.ServiceAnnotationPostProcessor :  [DUBBO] Found 2 classes annotated by Dubbo @Service under package [org.ljy.qaservice]: [org.ljy.qaservice.service.impl.CommentImpl, org.ljy.qaservice.service.impl.QuestionImpl], dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:25:50.136+08:00  INFO 23512 --- [qa-service] [main] c.s.b.f.a.ServiceAnnotationPostProcessor :  [DUBBO] Register ServiceBean[ServiceBean:org.ljy.common.service.CommentService::]: Root bean: class [org.apache.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodNames=null; destroyMethodNames=null, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:25:50.137+08:00  INFO 23512 --- [qa-service] [main] c.s.b.f.a.ServiceAnnotationPostProcessor :  [DUBBO] Register ServiceBean[ServiceBean:org.ljy.common.service.QuestionService::]: Root bean: class [org.apache.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodNames=null; destroyMethodNames=null, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:25:50.492+08:00  INFO 23512 --- [qa-service] [main] f.a.ReferenceAnnotationBeanPostProcessor :  [DUBBO] class org.apache.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor was destroying!, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:25:50.745+08:00  INFO 23512 --- [qa-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9001 (http)
+2025-05-06T18:25:50.759+08:00  INFO 23512 --- [qa-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-06T18:25:50.759+08:00  INFO 23512 --- [qa-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2025-05-06T18:25:50.829+08:00  INFO 23512 --- [qa-service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-06T18:25:50.829+08:00  INFO 23512 --- [qa-service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1813 ms
+2025-05-06T18:25:50.982+08:00  INFO 23512 --- [qa-service] [main] o.a.d.c.s.c.DubboConfigBeanInitializer   :  [DUBBO] loading dubbo config beans ..., dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:25:51.026+08:00  INFO 23512 --- [qa-service] [main] o.a.d.c.s.c.DubboConfigBeanInitializer   :  [DUBBO] dubbo config beans are loaded., dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:25:51.068+08:00  INFO 23512 --- [qa-service] [main] c.a.nacos.client.logging.NacosLogging    : Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback12.LogbackNacosLoggingAdapterBuilder
+2025-05-06T18:25:51.074+08:00  INFO 23512 --- [qa-service] [main] c.a.nacos.client.logging.NacosLogging    : Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapterBuilder
+2025-05-06T18:25:51.075+08:00  INFO 23512 --- [qa-service] [main] c.a.nacos.client.logging.NacosLogging    : Nacos Logging Adapter: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapter match ch.qos.logback.classic.Logger success.
+2025-05-06T18:25:51.080+08:00  INFO 23512 --- [qa-service] [main] c.a.nacos.client.logging.NacosLogging    : Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.log4j2.Log4j2NacosLoggingAdapterBuilder
+2025-05-06T18:25:51.209+08:00  INFO 23512 --- [qa-service] [main] c.a.n.p.a.s.c.ClientAuthPluginManager    : [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-05-06T18:25:51.210+08:00  INFO 23512 --- [qa-service] [main] c.a.n.p.a.s.c.ClientAuthPluginManager    : [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-05-06T18:25:51.852+08:00  INFO 23512 --- [qa-service] [main] c.a.n.c.a.AbstractAbilityControlManager  : Ready to get current node abilities...
+2025-05-06T18:25:51.854+08:00  INFO 23512 --- [qa-service] [main] c.a.n.c.a.AbstractAbilityControlManager  : Ready to initialize current node abilities, support modes: [SDK_CLIENT]
+2025-05-06T18:25:51.855+08:00  INFO 23512 --- [qa-service] [main] c.a.n.c.a.AbstractAbilityControlManager  : Initialize current abilities finish...
+2025-05-06T18:25:51.855+08:00  INFO 23512 --- [qa-service] [main] c.a.n.c.a.d.NacosAbilityManagerHolder    : [AbilityControlManager] Successfully initialize AbilityControlManager
+2025-05-06T18:25:52.022+08:00  INFO 23512 --- [qa-service] [main] o.a.d.common.config.ConfigurationUtils   :  [DUBBO] Config center was specified, but no config item found., dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:25:52.022+08:00  INFO 23512 --- [qa-service] [main] o.a.d.common.config.ConfigurationUtils   :  [DUBBO] Config center was specified, but no config item found., dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:25:52.055+08:00  INFO 23512 --- [qa-service] [main] o.a.dubbo.config.context.ConfigManager   :  [DUBBO] The current configurations or effective configurations are as follows:, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:25:52.058+08:00  INFO 23512 --- [qa-service] [main] o.a.dubbo.config.context.ConfigManager   :  [DUBBO] <dubbo:application enableFileCache="true" logger="slf4j" checkSerializable="false" executorManagementMode="isolation" parameters="{}" name="qa-service" qosEnable="false" protocol="dubbo" />, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:25:52.058+08:00  INFO 23512 --- [qa-service] [main] o.a.dubbo.config.context.ConfigManager   :  [DUBBO] <dubbo:protocol preferSerialization="hessian2,fastjson2" port="20880" name="tri" />, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:25:52.058+08:00  INFO 23512 --- [qa-service] [main] o.a.dubbo.config.context.ConfigManager   :  [DUBBO] <dubbo:registry port="8848" registerMode="instance" address="nacos://120.26.160.25:8848" protocol="nacos" />, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:25:52.058+08:00  INFO 23512 --- [qa-service] [main] o.a.dubbo.config.context.ConfigManager   :  [DUBBO] <dubbo:ssl />, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:25:52.079+08:00  INFO 23512 --- [qa-service] [main] o.a.d.c.deploy.DefaultModuleDeployer     :  [DUBBO] Dubbo Module[1.1.0] has been initialized!, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:25:52.083+08:00  INFO 23512 --- [qa-service] [main] o.a.d.c.deploy.DefaultModuleDeployer     :  [DUBBO] Dubbo Module[1.1.1] has been initialized!, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:25:52.212+08:00  INFO 23512 --- [qa-service] [main] o.a.d.c.d.DefaultApplicationDeployer     :  [DUBBO] No value is configured in the registry, the MetadataReportFactory extension[name : nacos] supports as the metadata center, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:25:52.213+08:00  INFO 23512 --- [qa-service] [main] o.a.d.c.d.DefaultApplicationDeployer     :  [DUBBO] The registry[<dubbo:registry port="8848" registerMode="instance" address="nacos://120.26.160.25:8848" protocol="nacos" />] will be used as the metadata center, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:25:52.215+08:00  INFO 23512 --- [qa-service] [main] o.a.d.c.d.DefaultApplicationDeployer     :  [DUBBO] use registry as metadata-center: <dubbo:metadata-report address="nacos://120.26.160.25:8848" protocol="nacos" port="8848" parameters="{client=null}" />, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:25:52.232+08:00  INFO 23512 --- [qa-service] [main] c.a.n.p.a.s.c.ClientAuthPluginManager    : [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-05-06T18:25:52.232+08:00  INFO 23512 --- [qa-service] [main] c.a.n.p.a.s.c.ClientAuthPluginManager    : [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-05-06T18:25:52.362+08:00  INFO 23512 --- [qa-service] [main] o.a.d.c.d.DefaultApplicationDeployer     :  [DUBBO] Dubbo Application[1.1](qa-service) has been initialized!, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:25:52.485+08:00  INFO 23512 --- [qa-service] [main] org.mongodb.driver.client                : MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.11.1"}, "os": {"type": "Windows", "name": "Windows 10", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Oracle Corporation/17+35-2724"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=MongoCredential{mechanism=null, userName='root', source='admin', password=<hidden>, mechanismProperties=<hidden>}, transportSettings=null, streamFactoryFactory=null, commandListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsCommandListener@5b407336], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@160cf225, com.mongodb.Jep395RecordCodecProvider@6a262980, com.mongodb.KotlinCodecProvider@10230657]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[120.26.160.25:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsConnectionPoolListener@48a21ea6], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null}
+2025-05-06T18:25:52.552+08:00  INFO 23512 --- [qa-service] [cluster-ClusterId{value='6819e3b04dac226d3d69245c', description='null'}-120.26.160.25:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=120.26.160.25:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=21, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=63096000}
+2025-05-06T18:25:52.903+08:00  WARN 23512 --- [qa-service] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'questionImpl' defined in file [C:\Users\lin_jy\Desktop\programming\spring-cloud-JellyStudy\qa-service\target\classes\org\ljy\qaservice\service\impl\QuestionImpl.class]: Unsatisfied dependency expressed through constructor parameter 1: No qualifying bean of type 'org.ljy.userservice.repository.UserRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2025-05-06T18:25:52.909+08:00  INFO 23512 --- [qa-service] [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-05-06T18:25:52.923+08:00  INFO 23512 --- [qa-service] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-05-06T18:25:52.963+08:00 ERROR 23512 --- [qa-service] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in org.ljy.qaservice.service.impl.QuestionImpl required a bean of type 'org.ljy.userservice.repository.UserRepository' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.ljy.userservice.repository.UserRepository' in your configuration.
+
+2025-05-06T18:25:52.967+08:00  WARN 23512 --- [qa-service] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Start destroying ThreadPool
+2025-05-06T18:25:52.967+08:00  INFO 23512 --- [qa-service] [DubboShutdownHook] o.apache.dubbo.config.DubboShutdownHook  :  [DUBBO] Run shutdown hook now., dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:25:52.967+08:00  WARN 23512 --- [qa-service] [Thread-7] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+2025-05-06T18:25:52.967+08:00  WARN 23512 --- [qa-service] [Thread-9] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+2025-05-06T18:25:52.967+08:00  WARN 23512 --- [qa-service] [Thread-9] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+2025-05-06T18:25:52.967+08:00  WARN 23512 --- [qa-service] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Destruction of the end
+2025-05-06T18:25:52.969+08:00  WARN 23512 --- [qa-service] [Thread-7] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+2025-05-06T18:25:52.969+08:00  INFO 23512 --- [qa-service] [DubboShutdownHook] o.apache.dubbo.config.DubboShutdownHook  :  [DUBBO] Waiting for modules(Dubbo Application[1.1](qa-service)) managed by Spring to be shutdown., dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:26:20.257+08:00  INFO 11620 --- [qa-service] [main] d.s.b.c.e.WelcomeLogoApplicationListener :  [DUBBO] 
+
+ :: Dubbo (v3.3.1) : https://github.com/apache/dubbo
+ :: Discuss group : dev@dubbo.apache.org
+, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:26:20.308+08:00  INFO 11620 --- [qa-service] [main] org.ljy.qaservice.QAServiceApplication   : Starting QAServiceApplication using Java 17 with PID 11620 (C:\Users\lin_jy\Desktop\programming\spring-cloud-JellyStudy\qa-service\target\classes started by lin_jy in C:\Users\lin_jy\Desktop\programming\spring-cloud-JellyStudy\qa-service)
+2025-05-06T18:26:20.309+08:00  INFO 11620 --- [qa-service] [main] org.ljy.qaservice.QAServiceApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-05-06T18:26:20.891+08:00  INFO 11620 --- [qa-service] [main] o.apache.dubbo.rpc.model.FrameworkModel  :  [DUBBO] Dubbo Framework[1] is created, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:26:20.899+08:00  INFO 11620 --- [qa-service] [main] o.a.d.c.r.GlobalResourcesRepository      :  [DUBBO] Creating global shared handler ..., dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:26:20.947+08:00  INFO 11620 --- [qa-service] [main] o.a.dubbo.rpc.model.ApplicationModel     :  [DUBBO] Dubbo Application[1.0](unknown) is created, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:26:20.948+08:00  INFO 11620 --- [qa-service] [main] org.apache.dubbo.rpc.model.ScopeModel    :  [DUBBO] Dubbo Module[1.0.0] is created, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:26:20.967+08:00  INFO 11620 --- [qa-service] [main] o.a.d.c.context.AbstractConfigManager    :  [DUBBO] Config settings: {dubbo.config.mode=STRICT, dubbo.config.ignore-duplicated-interface=false}, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:26:20.968+08:00  INFO 11620 --- [qa-service] [main] o.a.d.c.context.AbstractConfigManager    :  [DUBBO] Config settings: {dubbo.config.mode=STRICT, dubbo.config.ignore-duplicated-interface=false}, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:26:20.972+08:00  INFO 11620 --- [qa-service] [main] o.a.d.c.utils.SerializeSecurityManager   :  [DUBBO] Serialize check serializable: true, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:26:20.972+08:00  INFO 11620 --- [qa-service] [main] o.a.d.c.u.SerializeSecurityConfigurator  :  [DUBBO] Read serialize allow list from jar:file:/D:/jdk/apache-maven-3.9.9/repository/org/apache/dubbo/dubbo/3.3.1/dubbo-3.3.1.jar!/security/serialize.allowlist, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:26:20.990+08:00  INFO 11620 --- [qa-service] [main] o.a.d.c.u.SerializeSecurityConfigurator  :  [DUBBO] Read serialize blocked list from jar:file:/D:/jdk/apache-maven-3.9.9/repository/org/apache/dubbo/dubbo/3.3.1/dubbo-3.3.1.jar!/security/serialize.blockedlist, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:26:21.113+08:00  INFO 11620 --- [qa-service] [main] o.a.dubbo.rpc.model.ApplicationModel     :  [DUBBO] Dubbo Application[1.1](unknown) is created, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:26:21.114+08:00  INFO 11620 --- [qa-service] [main] org.apache.dubbo.rpc.model.ScopeModel    :  [DUBBO] Dubbo Module[1.1.0] is created, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:26:21.118+08:00  INFO 11620 --- [qa-service] [main] o.a.d.c.context.AbstractConfigManager    :  [DUBBO] Config settings: {dubbo.config.mode=STRICT, dubbo.config.ignore-duplicated-interface=false}, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:26:21.118+08:00  INFO 11620 --- [qa-service] [main] o.a.d.c.context.AbstractConfigManager    :  [DUBBO] Config settings: {dubbo.config.mode=STRICT, dubbo.config.ignore-duplicated-interface=false}, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:26:21.119+08:00  INFO 11620 --- [qa-service] [main] o.a.d.c.u.SerializeSecurityConfigurator  :  [DUBBO] Read serialize allow list from jar:file:/D:/jdk/apache-maven-3.9.9/repository/org/apache/dubbo/dubbo/3.3.1/dubbo-3.3.1.jar!/security/serialize.allowlist, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:26:21.120+08:00  INFO 11620 --- [qa-service] [main] o.a.d.c.u.SerializeSecurityConfigurator  :  [DUBBO] Read serialize blocked list from jar:file:/D:/jdk/apache-maven-3.9.9/repository/org/apache/dubbo/dubbo/3.3.1/dubbo-3.3.1.jar!/security/serialize.blockedlist, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:26:21.129+08:00  INFO 11620 --- [qa-service] [main] o.a.d.c.s.c.DubboSpringInitializer       :  [DUBBO] Use default application: Dubbo Application[1.1](unknown), dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:26:21.129+08:00  INFO 11620 --- [qa-service] [main] org.apache.dubbo.rpc.model.ScopeModel    :  [DUBBO] Dubbo Module[1.1.1] is created, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:26:21.131+08:00  INFO 11620 --- [qa-service] [main] o.a.d.c.context.AbstractConfigManager    :  [DUBBO] Config settings: {dubbo.config.mode=STRICT, dubbo.config.ignore-duplicated-interface=false}, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:26:21.133+08:00  INFO 11620 --- [qa-service] [main] o.a.d.c.u.SerializeSecurityConfigurator  :  [DUBBO] Read serialize allow list from jar:file:/D:/jdk/apache-maven-3.9.9/repository/org/apache/dubbo/dubbo/3.3.1/dubbo-3.3.1.jar!/security/serialize.allowlist, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:26:21.133+08:00  INFO 11620 --- [qa-service] [main] o.a.d.c.u.SerializeSecurityConfigurator  :  [DUBBO] Read serialize blocked list from jar:file:/D:/jdk/apache-maven-3.9.9/repository/org/apache/dubbo/dubbo/3.3.1/dubbo-3.3.1.jar!/security/serialize.blockedlist, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:26:21.135+08:00  INFO 11620 --- [qa-service] [main] o.a.d.c.s.c.DubboSpringInitializer       :  [DUBBO] Use default module model of target application: Dubbo Module[1.1.1], dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:26:21.136+08:00  INFO 11620 --- [qa-service] [main] o.a.d.c.s.c.DubboSpringInitializer       :  [DUBBO] Bind Dubbo Module[1.1.1] to spring container: org.springframework.beans.factory.support.DefaultListableBeanFactory@307765b4, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:26:21.421+08:00  INFO 11620 --- [qa-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2025-05-06T18:26:21.465+08:00  INFO 11620 --- [qa-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38 ms. Found 2 MongoDB repository interfaces.
+2025-05-06T18:26:21.516+08:00  INFO 11620 --- [qa-service] [main] c.s.b.f.a.ServiceAnnotationPostProcessor :  [DUBBO] BeanNameGenerator bean can't be found in BeanFactory with name [org.springframework.context.annotation.internalConfigurationBeanNameGenerator], dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:26:21.516+08:00  INFO 11620 --- [qa-service] [main] c.s.b.f.a.ServiceAnnotationPostProcessor :  [DUBBO] BeanNameGenerator will be a instance of org.springframework.context.annotation.AnnotationBeanNameGenerator , it maybe a potential problem on bean name generation., dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:26:21.518+08:00  INFO 11620 --- [qa-service] [main] c.s.b.f.a.ServiceAnnotationPostProcessor :  [DUBBO] Found 2 classes annotated by Dubbo @Service under package [org.ljy.qaservice]: [org.ljy.qaservice.service.impl.CommentImpl, org.ljy.qaservice.service.impl.QuestionImpl], dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:26:21.542+08:00  INFO 11620 --- [qa-service] [main] c.s.b.f.a.ServiceAnnotationPostProcessor :  [DUBBO] Register ServiceBean[ServiceBean:org.ljy.common.service.CommentService::]: Root bean: class [org.apache.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodNames=null; destroyMethodNames=null, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:26:21.543+08:00  INFO 11620 --- [qa-service] [main] c.s.b.f.a.ServiceAnnotationPostProcessor :  [DUBBO] Register ServiceBean[ServiceBean:org.ljy.common.service.QuestionService::]: Root bean: class [org.apache.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodNames=null; destroyMethodNames=null, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:26:21.930+08:00  INFO 11620 --- [qa-service] [main] f.a.ReferenceAnnotationBeanPostProcessor :  [DUBBO] class org.apache.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor was destroying!, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:26:22.222+08:00  INFO 11620 --- [qa-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9001 (http)
+2025-05-06T18:26:22.233+08:00  INFO 11620 --- [qa-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-06T18:26:22.234+08:00  INFO 11620 --- [qa-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2025-05-06T18:26:22.301+08:00  INFO 11620 --- [qa-service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-06T18:26:22.301+08:00  INFO 11620 --- [qa-service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1953 ms
+2025-05-06T18:26:22.467+08:00  INFO 11620 --- [qa-service] [main] o.a.d.c.s.c.DubboConfigBeanInitializer   :  [DUBBO] loading dubbo config beans ..., dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:26:22.512+08:00  INFO 11620 --- [qa-service] [main] o.a.d.c.s.c.DubboConfigBeanInitializer   :  [DUBBO] dubbo config beans are loaded., dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:26:22.559+08:00  INFO 11620 --- [qa-service] [main] c.a.nacos.client.logging.NacosLogging    : Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback12.LogbackNacosLoggingAdapterBuilder
+2025-05-06T18:26:22.565+08:00  INFO 11620 --- [qa-service] [main] c.a.nacos.client.logging.NacosLogging    : Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapterBuilder
+2025-05-06T18:26:22.566+08:00  INFO 11620 --- [qa-service] [main] c.a.nacos.client.logging.NacosLogging    : Nacos Logging Adapter: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapter match ch.qos.logback.classic.Logger success.
+2025-05-06T18:26:22.575+08:00  INFO 11620 --- [qa-service] [main] c.a.nacos.client.logging.NacosLogging    : Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.log4j2.Log4j2NacosLoggingAdapterBuilder
+2025-05-06T18:26:22.712+08:00  INFO 11620 --- [qa-service] [main] c.a.n.p.a.s.c.ClientAuthPluginManager    : [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-05-06T18:26:22.713+08:00  INFO 11620 --- [qa-service] [main] c.a.n.p.a.s.c.ClientAuthPluginManager    : [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-05-06T18:26:23.351+08:00  INFO 11620 --- [qa-service] [main] c.a.n.c.a.AbstractAbilityControlManager  : Ready to get current node abilities...
+2025-05-06T18:26:23.352+08:00  INFO 11620 --- [qa-service] [main] c.a.n.c.a.AbstractAbilityControlManager  : Ready to initialize current node abilities, support modes: [SDK_CLIENT]
+2025-05-06T18:26:23.353+08:00  INFO 11620 --- [qa-service] [main] c.a.n.c.a.AbstractAbilityControlManager  : Initialize current abilities finish...
+2025-05-06T18:26:23.353+08:00  INFO 11620 --- [qa-service] [main] c.a.n.c.a.d.NacosAbilityManagerHolder    : [AbilityControlManager] Successfully initialize AbilityControlManager
+2025-05-06T18:26:23.527+08:00  INFO 11620 --- [qa-service] [main] o.a.d.common.config.ConfigurationUtils   :  [DUBBO] Config center was specified, but no config item found., dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:26:23.527+08:00  INFO 11620 --- [qa-service] [main] o.a.d.common.config.ConfigurationUtils   :  [DUBBO] Config center was specified, but no config item found., dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:26:23.558+08:00  INFO 11620 --- [qa-service] [main] o.a.dubbo.config.context.ConfigManager   :  [DUBBO] The current configurations or effective configurations are as follows:, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:26:23.561+08:00  INFO 11620 --- [qa-service] [main] o.a.dubbo.config.context.ConfigManager   :  [DUBBO] <dubbo:application enableFileCache="true" logger="slf4j" checkSerializable="false" executorManagementMode="isolation" parameters="{}" name="qa-service" qosEnable="false" protocol="dubbo" />, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:26:23.561+08:00  INFO 11620 --- [qa-service] [main] o.a.dubbo.config.context.ConfigManager   :  [DUBBO] <dubbo:protocol preferSerialization="hessian2,fastjson2" port="20880" name="tri" />, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:26:23.562+08:00  INFO 11620 --- [qa-service] [main] o.a.dubbo.config.context.ConfigManager   :  [DUBBO] <dubbo:registry port="8848" registerMode="instance" address="nacos://120.26.160.25:8848" protocol="nacos" />, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:26:23.562+08:00  INFO 11620 --- [qa-service] [main] o.a.dubbo.config.context.ConfigManager   :  [DUBBO] <dubbo:ssl />, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:26:23.580+08:00  INFO 11620 --- [qa-service] [main] o.a.d.c.deploy.DefaultModuleDeployer     :  [DUBBO] Dubbo Module[1.1.0] has been initialized!, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:26:23.585+08:00  INFO 11620 --- [qa-service] [main] o.a.d.c.deploy.DefaultModuleDeployer     :  [DUBBO] Dubbo Module[1.1.1] has been initialized!, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:26:23.712+08:00  INFO 11620 --- [qa-service] [main] o.a.d.c.d.DefaultApplicationDeployer     :  [DUBBO] No value is configured in the registry, the MetadataReportFactory extension[name : nacos] supports as the metadata center, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:26:23.712+08:00  INFO 11620 --- [qa-service] [main] o.a.d.c.d.DefaultApplicationDeployer     :  [DUBBO] The registry[<dubbo:registry port="8848" registerMode="instance" address="nacos://120.26.160.25:8848" protocol="nacos" />] will be used as the metadata center, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:26:23.715+08:00  INFO 11620 --- [qa-service] [main] o.a.d.c.d.DefaultApplicationDeployer     :  [DUBBO] use registry as metadata-center: <dubbo:metadata-report address="nacos://120.26.160.25:8848" protocol="nacos" port="8848" parameters="{client=null}" />, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:26:23.733+08:00  INFO 11620 --- [qa-service] [main] c.a.n.p.a.s.c.ClientAuthPluginManager    : [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-05-06T18:26:23.734+08:00  INFO 11620 --- [qa-service] [main] c.a.n.p.a.s.c.ClientAuthPluginManager    : [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-05-06T18:26:23.845+08:00  INFO 11620 --- [qa-service] [main] o.a.d.c.d.DefaultApplicationDeployer     :  [DUBBO] Dubbo Application[1.1](qa-service) has been initialized!, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:26:23.961+08:00  INFO 11620 --- [qa-service] [main] org.mongodb.driver.client                : MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.11.1"}, "os": {"type": "Windows", "name": "Windows 10", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Oracle Corporation/17+35-2724"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=MongoCredential{mechanism=null, userName='root', source='admin', password=<hidden>, mechanismProperties=<hidden>}, transportSettings=null, streamFactoryFactory=null, commandListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsCommandListener@3c2fa57a], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@4027edeb, com.mongodb.Jep395RecordCodecProvider@48cd8e71, com.mongodb.KotlinCodecProvider@43b3b1b0]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[120.26.160.25:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsConnectionPoolListener@2f6d8c9], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null}
+2025-05-06T18:26:24.024+08:00  INFO 11620 --- [qa-service] [cluster-ClusterId{value='6819e3cfff9b907d5477d9f9', description='null'}-120.26.160.25:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=120.26.160.25:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=21, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=51274200}
+2025-05-06T18:26:24.405+08:00  WARN 11620 --- [qa-service] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'questionImpl' defined in file [C:\Users\lin_jy\Desktop\programming\spring-cloud-JellyStudy\qa-service\target\classes\org\ljy\qaservice\service\impl\QuestionImpl.class]: Unsatisfied dependency expressed through constructor parameter 1: No qualifying bean of type 'org.ljy.userservice.repository.UserRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2025-05-06T18:26:24.411+08:00  INFO 11620 --- [qa-service] [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-05-06T18:26:24.434+08:00  INFO 11620 --- [qa-service] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-05-06T18:26:24.475+08:00 ERROR 11620 --- [qa-service] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in org.ljy.qaservice.service.impl.QuestionImpl required a bean of type 'org.ljy.userservice.repository.UserRepository' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.ljy.userservice.repository.UserRepository' in your configuration.
+
+2025-05-06T18:26:24.477+08:00  INFO 11620 --- [qa-service] [DubboShutdownHook] o.apache.dubbo.config.DubboShutdownHook  :  [DUBBO] Run shutdown hook now., dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T18:26:24.477+08:00  WARN 11620 --- [qa-service] [Thread-7] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+2025-05-06T18:26:24.477+08:00  WARN 11620 --- [qa-service] [Thread-9] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+2025-05-06T18:26:24.477+08:00  WARN 11620 --- [qa-service] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Start destroying ThreadPool
+2025-05-06T18:26:24.478+08:00  WARN 11620 --- [qa-service] [Thread-9] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+2025-05-06T18:26:24.478+08:00  WARN 11620 --- [qa-service] [Thread-7] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+2025-05-06T19:15:25.254+08:00  INFO 9264 --- [qa-service] [main] d.s.b.c.e.WelcomeLogoApplicationListener :  [DUBBO] 
+
+ :: Dubbo (v3.3.1) : https://github.com/apache/dubbo
+ :: Discuss group : dev@dubbo.apache.org
+, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T19:15:25.305+08:00  INFO 9264 --- [qa-service] [main] org.ljy.qaservice.QAServiceApplication   : Starting QAServiceApplication using Java 17 with PID 9264 (C:\Users\lin_jy\Desktop\programming\spring-cloud-JellyStudy\qa-service\target\classes started by lin_jy in C:\Users\lin_jy\Desktop\programming\spring-cloud-JellyStudy\qa-service)
+2025-05-06T19:15:25.306+08:00  INFO 9264 --- [qa-service] [main] org.ljy.qaservice.QAServiceApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-05-06T19:15:25.876+08:00  INFO 9264 --- [qa-service] [main] o.apache.dubbo.rpc.model.FrameworkModel  :  [DUBBO] Dubbo Framework[1] is created, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T19:15:25.887+08:00  INFO 9264 --- [qa-service] [main] o.a.d.c.r.GlobalResourcesRepository      :  [DUBBO] Creating global shared handler ..., dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T19:15:25.968+08:00  INFO 9264 --- [qa-service] [main] o.a.dubbo.rpc.model.ApplicationModel     :  [DUBBO] Dubbo Application[1.0](unknown) is created, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T19:15:25.970+08:00  INFO 9264 --- [qa-service] [main] org.apache.dubbo.rpc.model.ScopeModel    :  [DUBBO] Dubbo Module[1.0.0] is created, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T19:15:25.990+08:00  INFO 9264 --- [qa-service] [main] o.a.d.c.context.AbstractConfigManager    :  [DUBBO] Config settings: {dubbo.config.mode=STRICT, dubbo.config.ignore-duplicated-interface=false}, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T19:15:25.991+08:00  INFO 9264 --- [qa-service] [main] o.a.d.c.context.AbstractConfigManager    :  [DUBBO] Config settings: {dubbo.config.mode=STRICT, dubbo.config.ignore-duplicated-interface=false}, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T19:15:25.996+08:00  INFO 9264 --- [qa-service] [main] o.a.d.c.utils.SerializeSecurityManager   :  [DUBBO] Serialize check serializable: true, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T19:15:25.996+08:00  INFO 9264 --- [qa-service] [main] o.a.d.c.u.SerializeSecurityConfigurator  :  [DUBBO] Read serialize allow list from jar:file:/D:/jdk/apache-maven-3.9.9/repository/org/apache/dubbo/dubbo/3.3.1/dubbo-3.3.1.jar!/security/serialize.allowlist, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T19:15:26.011+08:00  INFO 9264 --- [qa-service] [main] o.a.d.c.u.SerializeSecurityConfigurator  :  [DUBBO] Read serialize blocked list from jar:file:/D:/jdk/apache-maven-3.9.9/repository/org/apache/dubbo/dubbo/3.3.1/dubbo-3.3.1.jar!/security/serialize.blockedlist, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T19:15:26.128+08:00  INFO 9264 --- [qa-service] [main] o.a.dubbo.rpc.model.ApplicationModel     :  [DUBBO] Dubbo Application[1.1](unknown) is created, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T19:15:26.128+08:00  INFO 9264 --- [qa-service] [main] org.apache.dubbo.rpc.model.ScopeModel    :  [DUBBO] Dubbo Module[1.1.0] is created, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T19:15:26.132+08:00  INFO 9264 --- [qa-service] [main] o.a.d.c.context.AbstractConfigManager    :  [DUBBO] Config settings: {dubbo.config.mode=STRICT, dubbo.config.ignore-duplicated-interface=false}, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T19:15:26.134+08:00  INFO 9264 --- [qa-service] [main] o.a.d.c.context.AbstractConfigManager    :  [DUBBO] Config settings: {dubbo.config.mode=STRICT, dubbo.config.ignore-duplicated-interface=false}, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T19:15:26.136+08:00  INFO 9264 --- [qa-service] [main] o.a.d.c.u.SerializeSecurityConfigurator  :  [DUBBO] Read serialize allow list from jar:file:/D:/jdk/apache-maven-3.9.9/repository/org/apache/dubbo/dubbo/3.3.1/dubbo-3.3.1.jar!/security/serialize.allowlist, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T19:15:26.136+08:00  INFO 9264 --- [qa-service] [main] o.a.d.c.u.SerializeSecurityConfigurator  :  [DUBBO] Read serialize blocked list from jar:file:/D:/jdk/apache-maven-3.9.9/repository/org/apache/dubbo/dubbo/3.3.1/dubbo-3.3.1.jar!/security/serialize.blockedlist, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T19:15:26.147+08:00  INFO 9264 --- [qa-service] [main] o.a.d.c.s.c.DubboSpringInitializer       :  [DUBBO] Use default application: Dubbo Application[1.1](unknown), dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T19:15:26.148+08:00  INFO 9264 --- [qa-service] [main] org.apache.dubbo.rpc.model.ScopeModel    :  [DUBBO] Dubbo Module[1.1.1] is created, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T19:15:26.151+08:00  INFO 9264 --- [qa-service] [main] o.a.d.c.context.AbstractConfigManager    :  [DUBBO] Config settings: {dubbo.config.mode=STRICT, dubbo.config.ignore-duplicated-interface=false}, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T19:15:26.152+08:00  INFO 9264 --- [qa-service] [main] o.a.d.c.u.SerializeSecurityConfigurator  :  [DUBBO] Read serialize allow list from jar:file:/D:/jdk/apache-maven-3.9.9/repository/org/apache/dubbo/dubbo/3.3.1/dubbo-3.3.1.jar!/security/serialize.allowlist, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T19:15:26.152+08:00  INFO 9264 --- [qa-service] [main] o.a.d.c.u.SerializeSecurityConfigurator  :  [DUBBO] Read serialize blocked list from jar:file:/D:/jdk/apache-maven-3.9.9/repository/org/apache/dubbo/dubbo/3.3.1/dubbo-3.3.1.jar!/security/serialize.blockedlist, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T19:15:26.154+08:00  INFO 9264 --- [qa-service] [main] o.a.d.c.s.c.DubboSpringInitializer       :  [DUBBO] Use default module model of target application: Dubbo Module[1.1.1], dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T19:15:26.154+08:00  INFO 9264 --- [qa-service] [main] o.a.d.c.s.c.DubboSpringInitializer       :  [DUBBO] Bind Dubbo Module[1.1.1] to spring container: org.springframework.beans.factory.support.DefaultListableBeanFactory@4a9e6faf, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T19:15:26.416+08:00  INFO 9264 --- [qa-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2025-05-06T19:15:26.464+08:00  INFO 9264 --- [qa-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 43 ms. Found 3 MongoDB repository interfaces.
+2025-05-06T19:15:26.505+08:00  INFO 9264 --- [qa-service] [main] c.s.b.f.a.ServiceAnnotationPostProcessor :  [DUBBO] BeanNameGenerator bean can't be found in BeanFactory with name [org.springframework.context.annotation.internalConfigurationBeanNameGenerator], dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T19:15:26.505+08:00  INFO 9264 --- [qa-service] [main] c.s.b.f.a.ServiceAnnotationPostProcessor :  [DUBBO] BeanNameGenerator will be a instance of org.springframework.context.annotation.AnnotationBeanNameGenerator , it maybe a potential problem on bean name generation., dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T19:15:26.509+08:00  INFO 9264 --- [qa-service] [main] c.s.b.f.a.ServiceAnnotationPostProcessor :  [DUBBO] Found 1 classes annotated by Dubbo @Service under package [org.ljy.userservice]: [org.ljy.userservice.service.impl.UserImpl], dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T19:15:26.523+08:00  INFO 9264 --- [qa-service] [main] c.s.b.f.a.ServiceAnnotationPostProcessor :  [DUBBO] Register ServiceBean[ServiceBean:org.ljy.common.service.UserService::]: Root bean: class [org.apache.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodNames=null; destroyMethodNames=null, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T19:15:26.525+08:00  INFO 9264 --- [qa-service] [main] c.s.b.f.a.ServiceAnnotationPostProcessor :  [DUBBO] BeanNameGenerator bean can't be found in BeanFactory with name [org.springframework.context.annotation.internalConfigurationBeanNameGenerator], dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T19:15:26.526+08:00  INFO 9264 --- [qa-service] [main] c.s.b.f.a.ServiceAnnotationPostProcessor :  [DUBBO] BeanNameGenerator will be a instance of org.springframework.context.annotation.AnnotationBeanNameGenerator , it maybe a potential problem on bean name generation., dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T19:15:26.528+08:00  INFO 9264 --- [qa-service] [main] c.s.b.f.a.ServiceAnnotationPostProcessor :  [DUBBO] Found 2 classes annotated by Dubbo @Service under package [org.ljy.qaservice]: [org.ljy.qaservice.service.impl.CommentImpl, org.ljy.qaservice.service.impl.QuestionImpl], dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T19:15:26.528+08:00  INFO 9264 --- [qa-service] [main] c.s.b.f.a.ServiceAnnotationPostProcessor :  [DUBBO] Register ServiceBean[ServiceBean:org.ljy.common.service.CommentService::]: Root bean: class [org.apache.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodNames=null; destroyMethodNames=null, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T19:15:26.528+08:00  INFO 9264 --- [qa-service] [main] c.s.b.f.a.ServiceAnnotationPostProcessor :  [DUBBO] Register ServiceBean[ServiceBean:org.ljy.common.service.QuestionService::]: Root bean: class [org.apache.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodNames=null; destroyMethodNames=null, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T19:15:26.626+08:00  INFO 9264 --- [qa-service] [main] f.a.ReferenceAnnotationBeanPostProcessor :  [DUBBO] Register dubbo reference bean: userService = ReferenceBean:org.ljy.common.service.UserService() at private org.ljy.common.service.UserService org.ljy.userservice.controller.UserController.userService, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T19:15:26.925+08:00  INFO 9264 --- [qa-service] [main] f.a.ReferenceAnnotationBeanPostProcessor :  [DUBBO] class org.apache.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor was destroying!, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T19:15:27.166+08:00  INFO 9264 --- [qa-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9001 (http)
+2025-05-06T19:15:27.177+08:00  INFO 9264 --- [qa-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-06T19:15:27.177+08:00  INFO 9264 --- [qa-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2025-05-06T19:15:27.242+08:00  INFO 9264 --- [qa-service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-06T19:15:27.242+08:00  INFO 9264 --- [qa-service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1897 ms
+2025-05-06T19:15:27.380+08:00  INFO 9264 --- [qa-service] [main] o.a.d.c.s.c.DubboConfigBeanInitializer   :  [DUBBO] loading dubbo config beans ..., dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T19:15:27.433+08:00  INFO 9264 --- [qa-service] [main] o.a.d.c.s.c.DubboConfigBeanInitializer   :  [DUBBO] dubbo config beans are loaded., dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T19:15:27.477+08:00  INFO 9264 --- [qa-service] [main] c.a.nacos.client.logging.NacosLogging    : Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback12.LogbackNacosLoggingAdapterBuilder
+2025-05-06T19:15:27.482+08:00  INFO 9264 --- [qa-service] [main] c.a.nacos.client.logging.NacosLogging    : Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapterBuilder
+2025-05-06T19:15:27.483+08:00  INFO 9264 --- [qa-service] [main] c.a.nacos.client.logging.NacosLogging    : Nacos Logging Adapter: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapter match ch.qos.logback.classic.Logger success.
+2025-05-06T19:15:27.487+08:00  INFO 9264 --- [qa-service] [main] c.a.nacos.client.logging.NacosLogging    : Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.log4j2.Log4j2NacosLoggingAdapterBuilder
+2025-05-06T19:15:27.605+08:00  INFO 9264 --- [qa-service] [main] c.a.n.p.a.s.c.ClientAuthPluginManager    : [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-05-06T19:15:27.605+08:00  INFO 9264 --- [qa-service] [main] c.a.n.p.a.s.c.ClientAuthPluginManager    : [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-05-06T19:15:28.239+08:00  INFO 9264 --- [qa-service] [main] c.a.n.c.a.AbstractAbilityControlManager  : Ready to get current node abilities...
+2025-05-06T19:15:28.240+08:00  INFO 9264 --- [qa-service] [main] c.a.n.c.a.AbstractAbilityControlManager  : Ready to initialize current node abilities, support modes: [SDK_CLIENT]
+2025-05-06T19:15:28.241+08:00  INFO 9264 --- [qa-service] [main] c.a.n.c.a.AbstractAbilityControlManager  : Initialize current abilities finish...
+2025-05-06T19:15:28.241+08:00  INFO 9264 --- [qa-service] [main] c.a.n.c.a.d.NacosAbilityManagerHolder    : [AbilityControlManager] Successfully initialize AbilityControlManager
+2025-05-06T19:15:28.419+08:00  INFO 9264 --- [qa-service] [main] o.a.d.common.config.ConfigurationUtils   :  [DUBBO] Config center was specified, but no config item found., dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T19:15:28.420+08:00  INFO 9264 --- [qa-service] [main] o.a.d.common.config.ConfigurationUtils   :  [DUBBO] Config center was specified, but no config item found., dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T19:15:28.450+08:00  INFO 9264 --- [qa-service] [main] o.a.dubbo.config.context.ConfigManager   :  [DUBBO] The current configurations or effective configurations are as follows:, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T19:15:28.452+08:00  INFO 9264 --- [qa-service] [main] o.a.dubbo.config.context.ConfigManager   :  [DUBBO] <dubbo:application enableFileCache="true" logger="slf4j" checkSerializable="false" executorManagementMode="isolation" parameters="{}" name="qa-service" qosEnable="false" protocol="dubbo" />, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T19:15:28.452+08:00  INFO 9264 --- [qa-service] [main] o.a.dubbo.config.context.ConfigManager   :  [DUBBO] <dubbo:protocol preferSerialization="hessian2,fastjson2" port="20880" name="tri" />, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T19:15:28.453+08:00  INFO 9264 --- [qa-service] [main] o.a.dubbo.config.context.ConfigManager   :  [DUBBO] <dubbo:registry port="8848" registerMode="instance" address="nacos://120.26.160.25:8848" protocol="nacos" />, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T19:15:28.453+08:00  INFO 9264 --- [qa-service] [main] o.a.dubbo.config.context.ConfigManager   :  [DUBBO] <dubbo:ssl />, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T19:15:28.468+08:00  INFO 9264 --- [qa-service] [main] o.a.d.c.deploy.DefaultModuleDeployer     :  [DUBBO] Dubbo Module[1.1.0] has been initialized!, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T19:15:28.473+08:00  INFO 9264 --- [qa-service] [main] o.a.d.c.deploy.DefaultModuleDeployer     :  [DUBBO] Dubbo Module[1.1.1] has been initialized!, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T19:15:28.586+08:00  INFO 9264 --- [qa-service] [main] o.a.d.c.d.DefaultApplicationDeployer     :  [DUBBO] No value is configured in the registry, the MetadataReportFactory extension[name : nacos] supports as the metadata center, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T19:15:28.586+08:00  INFO 9264 --- [qa-service] [main] o.a.d.c.d.DefaultApplicationDeployer     :  [DUBBO] The registry[<dubbo:registry port="8848" registerMode="instance" address="nacos://120.26.160.25:8848" protocol="nacos" />] will be used as the metadata center, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T19:15:28.589+08:00  INFO 9264 --- [qa-service] [main] o.a.d.c.d.DefaultApplicationDeployer     :  [DUBBO] use registry as metadata-center: <dubbo:metadata-report address="nacos://120.26.160.25:8848" protocol="nacos" port="8848" parameters="{client=null}" />, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T19:15:28.605+08:00  INFO 9264 --- [qa-service] [main] c.a.n.p.a.s.c.ClientAuthPluginManager    : [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-05-06T19:15:28.606+08:00  INFO 9264 --- [qa-service] [main] c.a.n.p.a.s.c.ClientAuthPluginManager    : [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-05-06T19:15:30.388+08:00  INFO 9264 --- [qa-service] [main] o.a.d.c.d.DefaultApplicationDeployer     :  [DUBBO] Dubbo Application[1.1](qa-service) has been initialized!, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T19:15:30.526+08:00  INFO 9264 --- [qa-service] [main] org.mongodb.driver.client                : MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.11.1"}, "os": {"type": "Windows", "name": "Windows 10", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Oracle Corporation/17+35-2724"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=MongoCredential{mechanism=null, userName='root', source='admin', password=<hidden>, mechanismProperties=<hidden>}, transportSettings=null, streamFactoryFactory=null, commandListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsCommandListener@1af6d656], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@4acdf6e7, com.mongodb.Jep395RecordCodecProvider@2de82bf8, com.mongodb.KotlinCodecProvider@7804a783]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[120.26.160.25:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsConnectionPoolListener@54ec8ab3], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null}
+2025-05-06T19:15:30.963+08:00  INFO 9264 --- [qa-service] [main] o.a.d.c.s.reference.ReferenceCreator     :  [DUBBO] The configBean[type:ReferenceConfig<org.ljy.common.service.UserService>] has been built., dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T19:15:31.381+08:00  INFO 9264 --- [qa-service] [cluster-ClusterId{value='6819ef52d6a58f4b6a1037f2', description='null'}-120.26.160.25:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=120.26.160.25:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=21, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=498704100}
+2025-05-06T19:15:31.393+08:00  WARN 9264 --- [qa-service] [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-05-06T19:15:31.605+08:00  INFO 9264 --- [qa-service] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2025-05-06T19:15:31.707+08:00  INFO 9264 --- [qa-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9001 (http) with context path ''
+2025-05-06T19:15:31.717+08:00  INFO 9264 --- [qa-service] [main] o.a.d.c.deploy.DefaultModuleDeployer     :  [DUBBO] Dubbo Module[1.1.1] is starting., dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T19:15:31.719+08:00  INFO 9264 --- [qa-service] [main] o.a.d.c.d.DefaultApplicationDeployer     :  [DUBBO] Dubbo Application[1.1](qa-service) is starting., dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T19:15:32.160+08:00  INFO 9264 --- [qa-service] [main] o.a.d.qos.protocol.QosProtocolWrapper    :  [DUBBO] qos won't be started because it is disabled. Please check dubbo.application.qos.enable is configured either in system property, dubbo.properties or XML/spring-boot configuration., dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T19:15:32.162+08:00  INFO 9264 --- [qa-service] [main] o.a.d.c.utils.SerializeSecurityManager   :  [DUBBO] Serialize check serializable: false, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T19:15:32.168+08:00  INFO 9264 --- [qa-service] [main] org.apache.dubbo.config.ServiceConfig    :  [DUBBO] Export dubbo service org.ljy.common.service.QuestionService to local registry url : injvm://127.0.0.1/org.ljy.common.service.QuestionService?anyhost=true&application=qa-service&background=false&bind.ip=10.67.159.147&bind.port=20880&check.serializable=false&deprecated=false&dubbo=2.0.2&dynamic=true&executor-management-mode=isolation&exporter.listener=injvm&file-cache=true&generic=false&interface=org.ljy.common.service.QuestionService&logger=slf4j&methods=count,createQuestion,findMostPopularQuestions,findQuestionByPath,getQuestionById,getQuestionByTitle,getQuestionsByTag,updateQuestion&pid=9264&prefer.serialization=hessian2,fastjson2&qos.enable=false&release=3.3.1&side=provider&timestamp=1746530131878, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T19:15:32.170+08:00  INFO 9264 --- [qa-service] [main] org.apache.dubbo.config.ServiceConfig    :  [DUBBO] Register dubbo service org.ljy.common.service.QuestionService url tri://10.67.159.147:20880/org.ljy.common.service.QuestionService?anyhost=true&application=qa-service&background=false&bind.ip=10.67.159.147&bind.port=20880&check.serializable=false&deprecated=false&dubbo=2.0.2&dynamic=true&executor-management-mode=isolation&file-cache=true&generic=false&interface=org.ljy.common.service.QuestionService&logger=slf4j&methods=count,createQuestion,findMostPopularQuestions,findQuestionByPath,getQuestionById,getQuestionByTitle,getQuestionsByTag,updateQuestion&pid=9264&prefer.serialization=hessian2,fastjson2&qos.enable=false&release=3.3.1&service-name-mapping=true&side=provider&timestamp=1746530131878 to registry 120.26.160.25:8848, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T19:15:32.172+08:00  INFO 9264 --- [qa-service] [main] o.a.d.qos.protocol.QosProtocolWrapper    :  [DUBBO] qos won't be started because it is disabled. Please check dubbo.application.qos.enable is configured either in system property, dubbo.properties or XML/spring-boot configuration., dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T19:15:32.245+08:00  INFO 9264 --- [qa-service] [main] o.a.d.qos.protocol.QosProtocolWrapper    :  [DUBBO] qos won't be started because it is disabled. Please check dubbo.application.qos.enable is configured either in system property, dubbo.properties or XML/spring-boot configuration., dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T19:15:32.259+08:00  INFO 9264 --- [qa-service] [main] .r.p.t.r.m.DefaultRequestMappingRegistry :  [DUBBO] BasicRequestMappingResolver resolving rest mappings for ServiceMeta{interface=org.ljy.common.service.QuestionService, service=QuestionImpl@738ed8d3} at url [tri://10.67.159.147:20880/org.ljy.common.service.QuestionService], dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T19:15:32.279+08:00  INFO 9264 --- [qa-service] [main] .r.p.t.r.m.DefaultRequestMappingRegistry :  [DUBBO] SpringMvcRequestMappingResolver resolving rest mappings for ServiceMeta{interface=org.ljy.common.service.QuestionService, service=QuestionImpl@738ed8d3} at url [tri://10.67.159.147:20880/org.ljy.common.service.QuestionService], dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T19:15:32.280+08:00  INFO 9264 --- [qa-service] [main] .r.p.t.r.m.DefaultRequestMappingRegistry :  [DUBBO] Registered 8 rest mappings for service [QuestionImpl@1938741459] at url [tri://10.67.159.147:20880/org.ljy.common.service.QuestionService] in 22ms, dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T19:15:32.463+08:00 ERROR 9264 --- [qa-service] [main] o.a.d.c.deploy.DefaultModuleDeployer     :  [DUBBO] Model start failed: Dubbo Module[1.1.1] start failed: java.lang.RuntimeException: java.lang.RuntimeException: org.apache.dubbo.remoting.RemotingException: Failed to bind NettyPortUnificationServer on /0.0.0.0:20880, cause: Address already in use: bind, dubbo version: 3.3.1, current host: 10.67.159.147, error code: 5-14. This may be caused by , go to https://dubbo.apache.org/faq/5/14 to find instructions. 
+
+java.lang.RuntimeException: java.lang.RuntimeException: org.apache.dubbo.remoting.RemotingException: Failed to bind NettyPortUnificationServer on /0.0.0.0:20880, cause: Address already in use: bind
+	at org.apache.dubbo.registry.integration.ExporterFactory.lambda$createExporter$0(ExporterFactory.java:33) ~[dubbo-3.3.1.jar:3.3.1]
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708) ~[na:na]
+	at org.apache.dubbo.registry.integration.ExporterFactory.createExporter(ExporterFactory.java:29) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.registry.integration.RegistryProtocol.doLocalExport(RegistryProtocol.java:354) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.registry.integration.RegistryProtocol.export(RegistryProtocol.java:289) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.rpc.protocol.ProtocolSecurityWrapper.export(ProtocolSecurityWrapper.java:84) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.rpc.protocol.ProtocolListenerWrapper.export(ProtocolListenerWrapper.java:66) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.qos.protocol.QosProtocolWrapper.export(QosProtocolWrapper.java:79) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.rpc.cluster.filter.ProtocolFilterWrapper.export(ProtocolFilterWrapper.java:58) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.rpc.protocol.ProtocolSerializationWrapper.export(ProtocolSerializationWrapper.java:50) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.rpc.protocol.InvokerCountWrapper.export(InvokerCountWrapper.java:42) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.rpc.Protocol$Adaptive.export(Protocol$Adaptive.java) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.config.ServiceConfig.doExportUrl(ServiceConfig.java:969) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.config.ServiceConfig.exportRemote(ServiceConfig.java:939) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.config.ServiceConfig.exportUrl(ServiceConfig.java:876) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.config.ServiceConfig.doExportUrlsFor1Protocol(ServiceConfig.java:622) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.config.ServiceConfig.doExportUrls(ServiceConfig.java:600) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.config.ServiceConfig.doExport(ServiceConfig.java:555) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.config.ServiceConfig.export(ServiceConfig.java:343) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.exportServiceInternal(DefaultModuleDeployer.java:495) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.exportServices(DefaultModuleDeployer.java:442) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.startSync(DefaultModuleDeployer.java:177) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.start(DefaultModuleDeployer.java:159) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.config.spring.context.DubboDeployApplicationListener.onContextRefreshedEvent(DubboDeployApplicationListener.java:167) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.config.spring.context.DubboDeployApplicationListener.onApplicationEvent(DubboDeployApplicationListener.java:153) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.config.spring.context.DubboDeployApplicationListener.onApplicationEvent(DubboDeployApplicationListener.java:52) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:185) ~[spring-context-6.1.4.jar:6.1.4]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:178) ~[spring-context-6.1.4.jar:6.1.4]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:156) ~[spring-context-6.1.4.jar:6.1.4]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:451) ~[spring-context-6.1.4.jar:6.1.4]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:384) ~[spring-context-6.1.4.jar:6.1.4]
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:981) ~[spring-context-6.1.4.jar:6.1.4]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.1.4.jar:6.1.4]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.ljy.qaservice.QAServiceApplication.main(QAServiceApplication.java:15) ~[classes/:na]
+Caused by: java.lang.RuntimeException: org.apache.dubbo.remoting.RemotingException: Failed to bind NettyPortUnificationServer on /0.0.0.0:20880, cause: Address already in use: bind
+	at org.apache.dubbo.remoting.exchange.PortUnificationExchanger.lambda$bind$0(PortUnificationExchanger.java:48) ~[dubbo-3.3.1.jar:3.3.1]
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708) ~[na:na]
+	at org.apache.dubbo.common.utils.ConcurrentHashMapUtils.computeIfAbsent(ConcurrentHashMapUtils.java:56) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.remoting.exchange.PortUnificationExchanger.bind(PortUnificationExchanger.java:43) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.rpc.protocol.tri.TripleProtocol.bindServerPort(TripleProtocol.java:167) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.rpc.protocol.tri.TripleProtocol.export(TripleProtocol.java:134) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.rpc.protocol.ProtocolSecurityWrapper.export(ProtocolSecurityWrapper.java:84) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.rpc.protocol.ProtocolListenerWrapper.export(ProtocolListenerWrapper.java:77) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.qos.protocol.QosProtocolWrapper.export(QosProtocolWrapper.java:79) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.rpc.cluster.filter.ProtocolFilterWrapper.export(ProtocolFilterWrapper.java:61) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.rpc.protocol.ProtocolSerializationWrapper.export(ProtocolSerializationWrapper.java:50) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.rpc.protocol.InvokerCountWrapper.export(InvokerCountWrapper.java:42) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.rpc.Protocol$Adaptive.export(Protocol$Adaptive.java) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.registry.integration.RegistryProtocol.lambda$doLocalExport$3(RegistryProtocol.java:354) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.registry.integration.ExporterFactory.lambda$createExporter$0(ExporterFactory.java:31) ~[dubbo-3.3.1.jar:3.3.1]
+	... 39 common frames omitted
+Caused by: org.apache.dubbo.remoting.RemotingException: Failed to bind NettyPortUnificationServer on /0.0.0.0:20880, cause: Address already in use: bind
+	at org.apache.dubbo.remoting.transport.AbstractServer.<init>(AbstractServer.java:79) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.remoting.api.pu.AbstractPortUnificationServer.<init>(AbstractPortUnificationServer.java:57) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.remoting.transport.netty4.NettyPortUnificationServer.<init>(NettyPortUnificationServer.java:80) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.remoting.transport.netty4.NettyPortUnificationTransporter.bind(NettyPortUnificationTransporter.java:34) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.remoting.api.pu.PortUnificationTransporter$Adaptive.bind(PortUnificationTransporter$Adaptive.java) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.remoting.exchange.PortUnificationExchanger.lambda$bind$0(PortUnificationExchanger.java:46) ~[dubbo-3.3.1.jar:3.3.1]
+	... 53 common frames omitted
+Caused by: java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.bind(Net.java:555) ~[na:na]
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337) ~[na:na]
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294) ~[na:na]
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:141) ~[netty-transport-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:562) ~[netty-transport-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1334) ~[netty-transport-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:600) ~[netty-transport-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:579) ~[netty-transport-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:973) ~[netty-transport-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:260) ~[netty-transport-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:380) ~[netty-transport-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:173) ~[netty-common-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:166) ~[netty-common-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470) ~[netty-common-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569) ~[netty-transport-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.107.Final.jar:4.1.107.Final]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2025-05-06T19:15:32.469+08:00 ERROR 9264 --- [qa-service] [main] o.a.d.c.d.DefaultApplicationDeployer     :  [DUBBO] Dubbo Application[1.1](qa-service) found failed module: Dubbo Module[1.1.1], dubbo version: 3.3.1, current host: 10.67.159.147, error code: 5-14. This may be caused by , go to https://dubbo.apache.org/faq/5/14 to find instructions. 
+
+java.lang.RuntimeException: java.lang.RuntimeException: org.apache.dubbo.remoting.RemotingException: Failed to bind NettyPortUnificationServer on /0.0.0.0:20880, cause: Address already in use: bind
+	at org.apache.dubbo.registry.integration.ExporterFactory.lambda$createExporter$0(ExporterFactory.java:33) ~[dubbo-3.3.1.jar:3.3.1]
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708) ~[na:na]
+	at org.apache.dubbo.registry.integration.ExporterFactory.createExporter(ExporterFactory.java:29) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.registry.integration.RegistryProtocol.doLocalExport(RegistryProtocol.java:354) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.registry.integration.RegistryProtocol.export(RegistryProtocol.java:289) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.rpc.protocol.ProtocolSecurityWrapper.export(ProtocolSecurityWrapper.java:84) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.rpc.protocol.ProtocolListenerWrapper.export(ProtocolListenerWrapper.java:66) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.qos.protocol.QosProtocolWrapper.export(QosProtocolWrapper.java:79) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.rpc.cluster.filter.ProtocolFilterWrapper.export(ProtocolFilterWrapper.java:58) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.rpc.protocol.ProtocolSerializationWrapper.export(ProtocolSerializationWrapper.java:50) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.rpc.protocol.InvokerCountWrapper.export(InvokerCountWrapper.java:42) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.rpc.Protocol$Adaptive.export(Protocol$Adaptive.java) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.config.ServiceConfig.doExportUrl(ServiceConfig.java:969) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.config.ServiceConfig.exportRemote(ServiceConfig.java:939) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.config.ServiceConfig.exportUrl(ServiceConfig.java:876) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.config.ServiceConfig.doExportUrlsFor1Protocol(ServiceConfig.java:622) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.config.ServiceConfig.doExportUrls(ServiceConfig.java:600) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.config.ServiceConfig.doExport(ServiceConfig.java:555) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.config.ServiceConfig.export(ServiceConfig.java:343) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.exportServiceInternal(DefaultModuleDeployer.java:495) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.exportServices(DefaultModuleDeployer.java:442) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.startSync(DefaultModuleDeployer.java:177) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.start(DefaultModuleDeployer.java:159) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.config.spring.context.DubboDeployApplicationListener.onContextRefreshedEvent(DubboDeployApplicationListener.java:167) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.config.spring.context.DubboDeployApplicationListener.onApplicationEvent(DubboDeployApplicationListener.java:153) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.config.spring.context.DubboDeployApplicationListener.onApplicationEvent(DubboDeployApplicationListener.java:52) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:185) ~[spring-context-6.1.4.jar:6.1.4]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:178) ~[spring-context-6.1.4.jar:6.1.4]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:156) ~[spring-context-6.1.4.jar:6.1.4]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:451) ~[spring-context-6.1.4.jar:6.1.4]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:384) ~[spring-context-6.1.4.jar:6.1.4]
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:981) ~[spring-context-6.1.4.jar:6.1.4]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.1.4.jar:6.1.4]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.ljy.qaservice.QAServiceApplication.main(QAServiceApplication.java:15) ~[classes/:na]
+Caused by: java.lang.RuntimeException: org.apache.dubbo.remoting.RemotingException: Failed to bind NettyPortUnificationServer on /0.0.0.0:20880, cause: Address already in use: bind
+	at org.apache.dubbo.remoting.exchange.PortUnificationExchanger.lambda$bind$0(PortUnificationExchanger.java:48) ~[dubbo-3.3.1.jar:3.3.1]
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708) ~[na:na]
+	at org.apache.dubbo.common.utils.ConcurrentHashMapUtils.computeIfAbsent(ConcurrentHashMapUtils.java:56) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.remoting.exchange.PortUnificationExchanger.bind(PortUnificationExchanger.java:43) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.rpc.protocol.tri.TripleProtocol.bindServerPort(TripleProtocol.java:167) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.rpc.protocol.tri.TripleProtocol.export(TripleProtocol.java:134) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.rpc.protocol.ProtocolSecurityWrapper.export(ProtocolSecurityWrapper.java:84) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.rpc.protocol.ProtocolListenerWrapper.export(ProtocolListenerWrapper.java:77) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.qos.protocol.QosProtocolWrapper.export(QosProtocolWrapper.java:79) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.rpc.cluster.filter.ProtocolFilterWrapper.export(ProtocolFilterWrapper.java:61) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.rpc.protocol.ProtocolSerializationWrapper.export(ProtocolSerializationWrapper.java:50) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.rpc.protocol.InvokerCountWrapper.export(InvokerCountWrapper.java:42) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.rpc.Protocol$Adaptive.export(Protocol$Adaptive.java) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.registry.integration.RegistryProtocol.lambda$doLocalExport$3(RegistryProtocol.java:354) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.registry.integration.ExporterFactory.lambda$createExporter$0(ExporterFactory.java:31) ~[dubbo-3.3.1.jar:3.3.1]
+	... 39 common frames omitted
+Caused by: org.apache.dubbo.remoting.RemotingException: Failed to bind NettyPortUnificationServer on /0.0.0.0:20880, cause: Address already in use: bind
+	at org.apache.dubbo.remoting.transport.AbstractServer.<init>(AbstractServer.java:79) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.remoting.api.pu.AbstractPortUnificationServer.<init>(AbstractPortUnificationServer.java:57) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.remoting.transport.netty4.NettyPortUnificationServer.<init>(NettyPortUnificationServer.java:80) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.remoting.transport.netty4.NettyPortUnificationTransporter.bind(NettyPortUnificationTransporter.java:34) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.remoting.api.pu.PortUnificationTransporter$Adaptive.bind(PortUnificationTransporter$Adaptive.java) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.remoting.exchange.PortUnificationExchanger.lambda$bind$0(PortUnificationExchanger.java:46) ~[dubbo-3.3.1.jar:3.3.1]
+	... 53 common frames omitted
+Caused by: java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.bind(Net.java:555) ~[na:na]
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337) ~[na:na]
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294) ~[na:na]
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:141) ~[netty-transport-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:562) ~[netty-transport-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1334) ~[netty-transport-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:600) ~[netty-transport-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:579) ~[netty-transport-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:973) ~[netty-transport-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:260) ~[netty-transport-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:380) ~[netty-transport-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:173) ~[netty-common-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:166) ~[netty-common-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470) ~[netty-common-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569) ~[netty-transport-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.107.Final.jar:4.1.107.Final]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2025-05-06T19:15:32.473+08:00  WARN 9264 --- [qa-service] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: java.lang.RuntimeException: java.lang.RuntimeException: org.apache.dubbo.remoting.RemotingException: Failed to bind NettyPortUnificationServer on /0.0.0.0:20880, cause: Address already in use: bind
+2025-05-06T19:15:32.491+08:00  INFO 9264 --- [qa-service] [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-05-06T19:15:32.496+08:00  INFO 9264 --- [qa-service] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-05-06T19:15:32.508+08:00 ERROR 9264 --- [qa-service] [main] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.RuntimeException: java.lang.RuntimeException: org.apache.dubbo.remoting.RemotingException: Failed to bind NettyPortUnificationServer on /0.0.0.0:20880, cause: Address already in use: bind
+	at org.apache.dubbo.registry.integration.ExporterFactory.lambda$createExporter$0(ExporterFactory.java:33) ~[dubbo-3.3.1.jar:3.3.1]
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708) ~[na:na]
+	at org.apache.dubbo.registry.integration.ExporterFactory.createExporter(ExporterFactory.java:29) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.registry.integration.RegistryProtocol.doLocalExport(RegistryProtocol.java:354) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.registry.integration.RegistryProtocol.export(RegistryProtocol.java:289) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.rpc.protocol.ProtocolSecurityWrapper.export(ProtocolSecurityWrapper.java:84) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.rpc.protocol.ProtocolListenerWrapper.export(ProtocolListenerWrapper.java:66) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.qos.protocol.QosProtocolWrapper.export(QosProtocolWrapper.java:79) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.rpc.cluster.filter.ProtocolFilterWrapper.export(ProtocolFilterWrapper.java:58) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.rpc.protocol.ProtocolSerializationWrapper.export(ProtocolSerializationWrapper.java:50) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.rpc.protocol.InvokerCountWrapper.export(InvokerCountWrapper.java:42) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.rpc.Protocol$Adaptive.export(Protocol$Adaptive.java) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.config.ServiceConfig.doExportUrl(ServiceConfig.java:969) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.config.ServiceConfig.exportRemote(ServiceConfig.java:939) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.config.ServiceConfig.exportUrl(ServiceConfig.java:876) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.config.ServiceConfig.doExportUrlsFor1Protocol(ServiceConfig.java:622) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.config.ServiceConfig.doExportUrls(ServiceConfig.java:600) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.config.ServiceConfig.doExport(ServiceConfig.java:555) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.config.ServiceConfig.export(ServiceConfig.java:343) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.exportServiceInternal(DefaultModuleDeployer.java:495) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.exportServices(DefaultModuleDeployer.java:442) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.startSync(DefaultModuleDeployer.java:177) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.start(DefaultModuleDeployer.java:159) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.config.spring.context.DubboDeployApplicationListener.onContextRefreshedEvent(DubboDeployApplicationListener.java:167) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.config.spring.context.DubboDeployApplicationListener.onApplicationEvent(DubboDeployApplicationListener.java:153) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.config.spring.context.DubboDeployApplicationListener.onApplicationEvent(DubboDeployApplicationListener.java:52) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:185) ~[spring-context-6.1.4.jar:6.1.4]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:178) ~[spring-context-6.1.4.jar:6.1.4]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:156) ~[spring-context-6.1.4.jar:6.1.4]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:451) ~[spring-context-6.1.4.jar:6.1.4]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:384) ~[spring-context-6.1.4.jar:6.1.4]
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:981) ~[spring-context-6.1.4.jar:6.1.4]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.1.4.jar:6.1.4]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.ljy.qaservice.QAServiceApplication.main(QAServiceApplication.java:15) ~[classes/:na]
+Caused by: java.lang.RuntimeException: org.apache.dubbo.remoting.RemotingException: Failed to bind NettyPortUnificationServer on /0.0.0.0:20880, cause: Address already in use: bind
+	at org.apache.dubbo.remoting.exchange.PortUnificationExchanger.lambda$bind$0(PortUnificationExchanger.java:48) ~[dubbo-3.3.1.jar:3.3.1]
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708) ~[na:na]
+	at org.apache.dubbo.common.utils.ConcurrentHashMapUtils.computeIfAbsent(ConcurrentHashMapUtils.java:56) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.remoting.exchange.PortUnificationExchanger.bind(PortUnificationExchanger.java:43) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.rpc.protocol.tri.TripleProtocol.bindServerPort(TripleProtocol.java:167) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.rpc.protocol.tri.TripleProtocol.export(TripleProtocol.java:134) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.rpc.protocol.ProtocolSecurityWrapper.export(ProtocolSecurityWrapper.java:84) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.rpc.protocol.ProtocolListenerWrapper.export(ProtocolListenerWrapper.java:77) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.qos.protocol.QosProtocolWrapper.export(QosProtocolWrapper.java:79) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.rpc.cluster.filter.ProtocolFilterWrapper.export(ProtocolFilterWrapper.java:61) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.rpc.protocol.ProtocolSerializationWrapper.export(ProtocolSerializationWrapper.java:50) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.rpc.protocol.InvokerCountWrapper.export(InvokerCountWrapper.java:42) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.rpc.Protocol$Adaptive.export(Protocol$Adaptive.java) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.registry.integration.RegistryProtocol.lambda$doLocalExport$3(RegistryProtocol.java:354) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.registry.integration.ExporterFactory.lambda$createExporter$0(ExporterFactory.java:31) ~[dubbo-3.3.1.jar:3.3.1]
+	... 39 common frames omitted
+Caused by: org.apache.dubbo.remoting.RemotingException: Failed to bind NettyPortUnificationServer on /0.0.0.0:20880, cause: Address already in use: bind
+	at org.apache.dubbo.remoting.transport.AbstractServer.<init>(AbstractServer.java:79) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.remoting.api.pu.AbstractPortUnificationServer.<init>(AbstractPortUnificationServer.java:57) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.remoting.transport.netty4.NettyPortUnificationServer.<init>(NettyPortUnificationServer.java:80) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.remoting.transport.netty4.NettyPortUnificationTransporter.bind(NettyPortUnificationTransporter.java:34) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.remoting.api.pu.PortUnificationTransporter$Adaptive.bind(PortUnificationTransporter$Adaptive.java) ~[dubbo-3.3.1.jar:3.3.1]
+	at org.apache.dubbo.remoting.exchange.PortUnificationExchanger.lambda$bind$0(PortUnificationExchanger.java:46) ~[dubbo-3.3.1.jar:3.3.1]
+	... 53 common frames omitted
+Caused by: java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.bind(Net.java:555) ~[na:na]
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337) ~[na:na]
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294) ~[na:na]
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:141) ~[netty-transport-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:562) ~[netty-transport-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1334) ~[netty-transport-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:600) ~[netty-transport-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:579) ~[netty-transport-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:973) ~[netty-transport-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:260) ~[netty-transport-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:380) ~[netty-transport-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:173) ~[netty-common-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:166) ~[netty-common-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470) ~[netty-common-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569) ~[netty-transport-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.107.Final.jar:4.1.107.Final]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2025-05-06T19:15:33.347+08:00  WARN 9264 --- [qa-service] [Thread-3] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Start destroying ThreadPool
+2025-05-06T19:15:33.347+08:00  INFO 9264 --- [qa-service] [DubboShutdownHook] o.apache.dubbo.config.DubboShutdownHook  :  [DUBBO] Run shutdown hook now., dubbo version: 3.3.1, current host: 10.67.159.147
+2025-05-06T19:15:33.347+08:00  WARN 9264 --- [qa-service] [Thread-10] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+2025-05-06T19:15:33.347+08:00  WARN 9264 --- [qa-service] [Thread-8] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+2025-05-06T19:15:33.347+08:00  WARN 9264 --- [qa-service] [Thread-3] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Destruction of the end
+2025-05-06T19:15:33.347+08:00  WARN 9264 --- [qa-service] [Thread-10] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+2025-05-06T19:15:33.347+08:00  WARN 9264 --- [qa-service] [Thread-8] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end

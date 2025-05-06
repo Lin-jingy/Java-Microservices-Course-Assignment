@@ -1,6 +1,6 @@
-package org.ljy.userservice.Repository;
+package org.ljy.userservice.repository;
 
-import org.ljy.common.Model.Entity.User;
+import org.ljy.common.model.entity.User;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 

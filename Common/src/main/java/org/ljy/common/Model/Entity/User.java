@@ -1,9 +1,10 @@
-package org.ljy.common.Model.Entity;
+package org.ljy.common.model.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.experimental.Accessors;
-import org.ljy.common.Util.GenObjectId;
+
+import org.ljy.common.util.GenObjectId;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.index.Indexed;
 import org.springframework.data.mongodb.core.mapping.Document;
